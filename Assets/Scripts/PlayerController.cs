@@ -4,19 +4,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
+    public float speed;
+    
+    private Rigidbody rb;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		Console.Write("Hello world!");
-	}
+    // Initialization code goes here
+    void Start() {
+        rb = GetComponent<Rigidbody>();
+    }
 
     // Called before any physiscs calculations is called
-    private void FixedUpdate() {
-	    Console.Write("Hello world!");
+    void FixedUpdate() {
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+        
+        Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
+        
+        rb.AddForce(movement * speed);
     }
 }
