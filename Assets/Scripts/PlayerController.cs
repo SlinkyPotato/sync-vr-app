@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Firebase;
+using Firebase.Database;
+using Firebase.Unity.Editor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,12 +15,18 @@ public class PlayerController : MonoBehaviour {
     private Rigidbody rb;
     private int score;
 
+    private DatabaseReference dbRef;
+    private GameModel gm;
+
     // Initialization code goes here
     void Start() {
         rb = GetComponent<Rigidbody>();
         score = 0;
         setScoreText();
         winText.text = "";
+        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://synchrony-vr.firebaseio.com");
+        dbRef = FirebaseDatabase.DefaultInstance.RootReference;
+        gm = new GameModel();
     }
 
     // Called before any physiscs calculations is called
@@ -42,6 +51,10 @@ public class PlayerController : MonoBehaviour {
         scoreText.text = "Score: " + score.ToString();
         if (score >= 12) {
             winText.text = "Congratulations!";
+            gm.score = 12;
+            gm.didWin = true;
+            string gJson = JsonUtility.ToJson(gm);
+            dbRef.Child("stats").SetRawJsonValueAsync(gJson);
         }
     }
 }

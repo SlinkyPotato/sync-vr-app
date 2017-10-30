@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\brp14005\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_sync-vr-app.150616945.00" t="ExcludeRecursive" />
-    <e p="C:\Users\brp14005\Projects\sync-vr-app" t="IncludeRecursive">
+    <e p="C:\Users\Brian\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_sync-vr-app.-1510804.00" t="ExcludeRecursive" />
+    <e p="P:\Projects\sync-vr-app" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Firebase" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AppDependencies.xml" t="Include" />
+            <e p="AuthDependencies.xml" t="Include" />
+            <e p="FirebaseAuth_v4.2.1_manifest.txt" t="Include" />
+            <e p="FirebaseDatabase_v4.2.1_manifest.txt" t="Include" />
+          </e>
+          <e p="m2repository" t="Include">
+            <e p="com" t="Include">
+              <e p="google" t="Include">
+                <e p="Firebase" t="Include">
+                  <e p="firebase-app-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                  <e p="firebase-auth-unity" t="Include">
+                    <e p="maven-metadata.xml" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="Http" t="Include">
+              <e p="link.xml" t="Include" />
+            </e>
+            <e p="link.xml" t="Include" />
+          </e>
+        </e>
+        <e p="PlayServicesResolver" t="Include">
+          <e p="Editor" t="Include">
+            <e p="play-services-resolver_v1.2.59.0.txt" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="Firebase" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+            </e>
+          </e>
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
@@ -15,6 +53,8 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="CameraController.cs" t="Include" />
+          <e p="firebase_test.cs" t="Include" />
+          <e p="GameModel.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Rotator.cs" t="Include" />
         </e>
