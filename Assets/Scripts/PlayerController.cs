@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour {
     public float speed;
     public Text scoreText;
+    public Text winText;
     
     private Rigidbody rb;
     private int score;
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         score = 0;
         setScoreText();
+        winText.text = "";
     }
 
     // Called before any physiscs calculations is called
@@ -37,6 +39,9 @@ public class PlayerController : MonoBehaviour {
     }
 
     void setScoreText() {
-        scoreText.text = "Score: " + score.ToString();        
+        scoreText.text = "Score: " + score.ToString();
+        if (score >= 12) {
+            winText.text = "Congratulations!";
+        }
     }
 }
