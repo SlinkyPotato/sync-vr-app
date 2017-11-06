@@ -11,12 +11,14 @@ public class GameModel
 {
     public int score;
     public bool didWin;
+    public int gameTimeSecs;
 
     public GameModel() {}
 
-    public GameModel(int score, bool didWin)
+    public GameModel(int score, bool didWin, int gameTimeSecs)
     {
         this.score = score;
         this.didWin = didWin;
+        this.gameTimeSecs = gameTimeSecs;
     }
 }

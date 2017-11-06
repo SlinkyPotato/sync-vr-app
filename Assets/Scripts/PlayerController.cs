@@ -11,12 +11,15 @@ public class PlayerController : MonoBehaviour {
     public float speed;
     public Text scoreText;
     public Text winText;
+    public Text gameTimeText;
     
     private Rigidbody rb;
     private int score;
 
     private DatabaseReference dbRef;
     private GameModel gm;
+    private DateTime startTime;
+    private DateTime endTime;
 
     // Initialization code goes here
     void Start() {
@@ -25,8 +28,10 @@ public class PlayerController : MonoBehaviour {
         setScoreText();
         winText.text = "";
         FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://synchrony-vr.firebaseio.com");
-        dbRef = FirebaseDatabase.DefaultInstance.RootReference;
+        dbRef = FirebaseDatabase.DefaultInstance.GetReference("stats");
+        dbRef.ValueChanged += HandleScoreChange;
         gm = new GameModel();
+        startTime = DateTime.Now;
     }
 
     // Called before any physiscs calculations is called
@@ -50,11 +55,21 @@ public class PlayerController : MonoBehaviour {
     void setScoreText() {
         scoreText.text = "Score: " + score.ToString();
         if (score >= 12) {
+            endTime = DateTime.Now;
             winText.text = "Congratulations!";
             gm.score = 12;
             gm.didWin = true;
+            gm.gameTimeSecs = endTime.Subtract(startTime).Seconds;
             string gJson = JsonUtility.ToJson(gm);
-            dbRef.Child("stats").SetRawJsonValueAsync(gJson);
+            dbRef.SetRawJsonValueAsync(gJson);
         }
+    }
+
+    void HandleScoreChange(object sender, ValueChangedEventArgs args) {
+        if (args.DatabaseError != null) {
+            Debug.LogError(args.DatabaseError.Message);
+            return;
+        }
+        gameTimeText.text = "Game Time: " + args.Snapshot.Child("gameTimeSecs").Value.ToString() + " seconds";
     }
 }
