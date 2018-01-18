@@ -4,6 +4,7 @@
     <e p="C:\Users\brp14005\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_sync-vr-app.150616945.00" t="ExcludeRecursive" />
     <e p="C:\Users\brp14005\Projects\sync-vr-app" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Firebase" t="Include">
@@ -34,6 +35,94 @@
             <e p="link.xml" t="Include" />
           </e>
         </e>
+        <e p="OutPost" t="Include">
+          <e p="Image Effects (Pro Only)" t="Include">
+            <e p="_Sources" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="_BloomAndFlares" t="Include">
+                  <e p="Blend.shader" t="Include" />
+                  <e p="BlendForBloom.shader" t="Include" />
+                  <e p="BlendOneOne.shader" t="Include" />
+                  <e p="BlurAndFlares.shader" t="Include" />
+                  <e p="BrightPassFilter.shader" t="Include" />
+                  <e p="BrightPassFilter2.shader" t="Include" />
+                  <e p="LensFlareCreate.shader" t="Include" />
+                  <e p="MobileBloom.shader" t="Include" />
+                  <e p="MobileBlur.shader" t="Include" />
+                  <e p="MultiPassHollywoodFlares.shader" t="Include" />
+                  <e p="SeparableBlurPlus.shader" t="Include" />
+                  <e p="VignetteShader.shader" t="Include" />
+                </e>
+                <e p="_DepthOfField" t="Include">
+                  <e p="Bokeh34.shader" t="Include" />
+                  <e p="DepthOfField34.shader" t="Include" />
+                  <e p="DepthOfFieldDX11.shader" t="Include" />
+                  <e p="DepthOfFieldScatter.shader" t="Include" />
+                  <e p="SeparableBlur.shader" t="Include" />
+                  <e p="SeparableWeightedBlurDof34.shader" t="Include" />
+                  <e p="TiltShiftHdrLensBlur.shader" t="Include" />
+                </e>
+                <e p="BlendModesOverlay.shader" t="Include" />
+                <e p="BlurEffectConeTaps.shader" t="Include" />
+                <e p="CameraMotionBlur.shader" t="Include" />
+                <e p="CameraMotionBlurDX11.shader" t="Include" />
+                <e p="ChromaticAberrationShader.shader" t="Include" />
+                <e p="ColorCorrection3DLut.shader" t="Include" />
+                <e p="ColorCorrectionCurves.shader" t="Include" />
+                <e p="ColorCorrectionCurvesSimple.shader" t="Include" />
+                <e p="ColorCorrectionEffect.shader" t="Include" />
+                <e p="ColorCorrectionSelective.shader" t="Include" />
+                <e p="ContrastComposite.shader" t="Include" />
+                <e p="ConvertDepth.shader" t="Include" />
+                <e p="CreaseApply.shader" t="Include" />
+                <e p="EdgeDetectNormals.shader" t="Include" />
+                <e p="FisheyeShader.shader" t="Include" />
+                <e p="GlobalFog.shader" t="Include" />
+                <e p="GlowCompose.shader" t="Include" />
+                <e p="GlowConeTap.shader" t="Include" />
+                <e p="GlowEffectDownsample.shader" t="Include" />
+                <e p="GrayscaleEffect.shader" t="Include" />
+                <e p="MotionBlur.shader" t="Include" />
+                <e p="MotionBlurClear.shader" t="Include" />
+                <e p="NoiseAndGrain.shader" t="Include" />
+                <e p="NoiseAndGrainDX11.shader" t="Include" />
+                <e p="NoiseEffectShaderRGB.shader" t="Include" />
+                <e p="NoiseEffectShaderYUV.shader" t="Include" />
+                <e p="PrepareSunShaftsBlur.shader" t="Include" />
+                <e p="RadialBlur.shader" t="Include" />
+                <e p="ScreenSpaceAmbientObscurance.shader" t="Include" />
+                <e p="SepiaToneEffect.shader" t="Include" />
+                <e p="SimpleClear.shader" t="Include" />
+                <e p="SSAOShader.shader" t="Include" />
+                <e p="SunShaftsComposite.shader" t="Include" />
+                <e p="Tonemapper.shader" t="Include" />
+                <e p="TwirlEffect.shader" t="Include" />
+                <e p="VignettingShader.shader" t="Include" />
+                <e p="VortexEffect.shader" t="Include" />
+              </e>
+            </e>
+            <e p="BlurEffect.cs" t="Include" />
+            <e p="ColorCorrectionEffect.cs" t="Include" />
+            <e p="ContrastStretchEffect.cs" t="Include" />
+            <e p="GlowEffect.cs" t="Include" />
+            <e p="GrayscaleEffect.cs" t="Include" />
+            <e p="ImageEffectBase.cs" t="Include" />
+            <e p="ImageEffects.cs" t="Include" />
+            <e p="MotionBlur.cs" t="Include" />
+            <e p="NoiseEffect.cs" t="Include" />
+            <e p="SepiaToneEffect.cs" t="Include" />
+            <e p="SSAOEffect.cs" t="Include" />
+            <e p="TwirlEffect.cs" t="Include" />
+            <e p="VortexEffect.cs" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Assets" t="Include">
+              <e p="Materials" t="Include">
+                <e p="2sided.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="PlayServicesResolver" t="Include">
           <e p="Editor" t="Include">
             <e p="play-services-resolver_v1.2.59.0.txt" t="Include" />
@@ -57,6 +146,15 @@
           <e p="GameModel.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Rotator.cs" t="Include" />
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Character Controllers" t="Include">
+            <e p="Sources" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="MouseLook.cs" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
