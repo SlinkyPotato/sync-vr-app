@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/firebase_test.cs">
+    <Files>
+      <File FileName="Assets/grab.cs" Line="25" Column="19" />
+      <File FileName="Assets/Look.cs" Line="19" Column="44" />
+      <File FileName="Assets/firebase_test.cs" Line="18" Column="45" />
+      <File FileName="Assets/cart.cs" Line="22" Column="32" />
+      <File FileName="Assets/Purchasables.cs" Line="8" Column="21" />
+      <File FileName="Assets/draggable.cs" Line="26" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
