@@ -8,6 +8,37 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="cart.cs" t="Include" />
+        <e p="Customizable_Furnture" t="Include">
+          <e p="Editor" t="Include">
+            <e p="Customizable_Furniture" t="Include">
+              <e p="EditorCleanUpAll.cs" t="Include" />
+              <e p="EditorOptionsDisplay.cs" t="Include" />
+              <e p="EditorSimpleSwitchMaterial.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Readme" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="Source" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="CleanUpAll.cs" t="Include" />
+              <e p="Clock" t="Include">
+                <e p="AnalogicClock.cs" t="Include" />
+                <e p="ClockTimer.cs" t="Include" />
+                <e p="DigitalClock.cs" t="Include" />
+                <e p="DigitalClockValue.cs" t="Include" />
+              </e>
+              <e p="DisplayFrame.cs" t="Include" />
+              <e p="DisplaySelectedObject.cs" t="Include" />
+              <e p="OptionsDisplay.cs" t="Include" />
+              <e p="OptionsDisplaySaveVar.cs" t="Include" />
+              <e p="PlayVideo.cs" t="Include" />
+              <e p="SimpleSwitchMaterial.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="draggable.cs" t="Include" />
         <e p="Firebase" t="Include">
           <e p="Editor" t="Include">
             <e p="AppDependencies.xml" t="Include" />
@@ -145,7 +176,13 @@
           <e p="CameraController.cs" t="Include" />
           <e p="firebase_test.cs" t="Include" />
           <e p="GameModel.cs" t="Include" />
+          <e p="grab.cs" t="Include" />
+          <e p="LoadCity.cs" t="Include" />
+          <e p="LoadScene.cs" t="Include" />
+          <e p="Look.cs" t="Include" />
+          <e p="move.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
+          <e p="Purchasables.cs" t="Include" />
           <e p="Rotator.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">
