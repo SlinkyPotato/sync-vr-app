@@ -14,23 +14,32 @@ public class firebase_test : MonoBehaviour {
 		FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://synchrony-vr.firebaseio.com/");
 		dbref = FirebaseDatabase.DefaultInstance.RootReference;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		if (Input.GetKeyDown (KeyCode.UpArrow)) {
-			Data d = new Data ("Hello World");
-			string json = JsonUtility.ToJson (d);
-			dbref.Child ("messages").SetRawJsonValueAsync (json);
-		}
+
+	public void UpdateDB(string name, int price) {
+		Data d = new Data (name, price);
+		string json = JsonUtility.ToJson (d);
+		dbref.Child ("item").SetRawJsonValueAsync (json);
+		dbref.GetValueAsync().ContinueWith(task => {
+			if (task.IsFaulted) {
+				// Handle the error...
+			}
+			else if (task.IsCompleted) {
+				DataSnapshot snapshot = task.Result;
+				Debug.Log(snapshot.Child("item").Child("name").Value);
+				Debug.Log(snapshot.Child("item").Child("price").Value);
+			}
+		});
 	}
 }
 
 public class Data {
 
-	public string message;
+	public string name;
+	public int price;
 
-	public Data(string message) {
-		this.message = message;
+	public Data(string name, int price) {
+		this.name = name;
+		this.price = price;
 	}
 
 }
