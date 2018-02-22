@@ -19,7 +19,7 @@ public class LoadCity : MonoBehaviour {
 		print("In collision enter");
 		if (other.gameObject.CompareTag("MainCamera")) {
 			print("In if collision");
-			SceneManager.LoadScene("NYC6_Scene");
+			SceneManager.LoadScene("NYC_Block_6");
 			print("scene loaded");
 		}
 	}

@@ -153,6 +153,10 @@
                 <e p="2sided.shader" t="Include" />
               </e>
             </e>
+            <e p="Scripts" t="Include">
+              <e p="Camera Howto.txt" t="Include" />
+              <e p="FPS_Camera.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="PlayServicesResolver" t="Include">
@@ -178,9 +182,9 @@
           <e p="GameModel.cs" t="Include" />
           <e p="grab.cs" t="Include" />
           <e p="LoadCity.cs" t="Include" />
-          <e p="LoadScene.cs" t="Include" />
           <e p="Look.cs" t="Include" />
           <e p="move.cs" t="Include" />
+          <e p="Openable_Door.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Purchasables.cs" t="Include" />
           <e p="Rotator.cs" t="Include" />
