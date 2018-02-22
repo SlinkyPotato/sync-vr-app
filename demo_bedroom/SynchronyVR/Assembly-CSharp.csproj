@@ -216,25 +216,25 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>/Users/kristopherguzman/Dropbox/Unity/SynchronyVR/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ <HintPath>/Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
- <HintPath>/Users/kristopherguzman/Dropbox/Unity/SynchronyVR/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>/Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Database">
- <HintPath>/Users/kristopherguzman/Dropbox/Unity/SynchronyVR/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+ <HintPath>/Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>/Users/kristopherguzman/Dropbox/Unity/SynchronyVR/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>/Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Google.Sharpen">
- <HintPath>/Users/kristopherguzman/Dropbox/Unity/SynchronyVR/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+ <HintPath>/Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
- <HintPath>/Users/kristopherguzman/Dropbox/Unity/SynchronyVR/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
+ <HintPath>/Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR/Assets/Parse/Plugins/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>/Users/kristopherguzman/Dropbox/Unity/SynchronyVR/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
+ <HintPath>/Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR/Assets/Parse/Plugins/Unity.Tasks.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

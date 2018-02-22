@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 442}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 260
+  controlID: 224
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 238
+  controlID: 225
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -665,18 +665,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Textures
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 71
   m_LastFolders:
-  - Assets/Textures
+  - Assets
   m_LastFoldersGridSize: 71
-  m_LastProjectPath: /Users/kristopherguzman/Dropbox/Unity/SynchronyVR
+  m_LastProjectPath: /Users/kristopherguzman/Dropbox/homework/UCONN/Synchrony/sync-vr-app/demo_bedroom/SynchronyVR
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 40400000
-    m_LastClickedID: 16448
+    m_SelectedIDs: 56260000
+    m_LastClickedID: 9814
     m_ExpandedIDs: 0000000056260000ce2d0000062e000076320000923a0000c63a0000103d000042430000ae4d0000e84d00000aa300000ca300000ea3000010a3000012a3000014a3000016a3000018a300001aa30000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
