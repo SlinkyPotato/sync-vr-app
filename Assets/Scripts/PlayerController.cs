@@ -49,6 +49,8 @@ public class PlayerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             score++;
             setScoreText();
+        } else if (other.gameObject.CompareTag("StorefrontDoor")) {
+            other.gameObject.SetActive(false);
         }
     }
 
