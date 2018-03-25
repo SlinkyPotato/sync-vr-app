@@ -1,0 +1,55 @@
+
+{
+  "products": {
+    "p1": {
+      "name": "Example Shirt 1",
+      "price": 33.99,
+      "type": 0,
+      "brand": "nike",
+      "category": 0
+    },
+    "p2": {
+      "name": "Example Pants 1",
+      "price": 44.99,
+      "type": 1,
+      "brand": "nike",
+      "category": 0
+    }
+  },
+  "orders": {
+    "XMADI3532_3aAd": {
+      "recipient_id": "userA",
+      "status": 0,
+      "cart_id": "DAMAIDJ343_AFad2",
+      "price_total": 129.32
+    }
+  },
+  "carts": {
+    "XMADI3532_3aAd": {
+      "user_id": "user1",
+      "product_list": [
+        {
+          "product_id": "p1",
+          "quantity": 3
+        }
+      ]
+    }
+  },
+  "coupons": {
+    "coupon1": {
+      "title": "Synchrony Flash Sale",
+      "description": "20% All Synchrony Products Until April 27th. Only Reedemable for one item.",
+      "discount_type": 0,
+      "reduction_amount": null,
+      "percentage": 20,
+      "product_type": -1,
+      "brand": "nike"
+    }
+  },
+  "users": {
+    "user1": {
+      "name": "John Doe",
+      "credit_card_data": "0123 4567 8910 1112"
+    }
+  }
+}

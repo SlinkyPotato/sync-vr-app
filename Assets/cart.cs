@@ -17,9 +17,9 @@ public class cart : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.tag == "purchasable") {
-			Purchasables p = other.gameObject.GetComponent<Purchasables> ();
-			firebase_test fb = GameObject.Find ("AppManager").GetComponent<firebase_test> ();
-			fb.UpdateDB (p.name, p.price);
+			//Purchasables p = other.gameObject.GetComponent<Purchasables> ();
+			//firebase_test fb = GameObject.Find ("AppManager").GetComponent<firebase_test> ();
+			//fb.UpdateDB (p.name, p.price);
 		}
 	}
 }
