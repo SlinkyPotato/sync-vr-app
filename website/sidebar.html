@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Checkout Synchrony Demo</title>
+		<meta name="description" content="Ideas for enhancing the checkout process with VR" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/checkout-sidebar.css" />
+	</head>
+	<body class="color-2">
+		<div class="container">
+			<header class="Sync-header">
+			<img src="./img/synchrony.png">		
+			</nav>
+			</header>
+			<section class="content">
+				<div class="dummy-browser">
+					<div class="dummy-grid dummy-grid--filled dummy-grid--sidebar">
+						<div class="dummy-sidebar">
+							<div class="checkout">
+								<a class="checkout__button" href="#">Checkout</a>
+								<div class="checkout__order">
+									<div class="checkout__order-inner">
+										<table class="checkout__summary">
+											<thead>
+										        <tr><th>Your Order</th><th>Price</th></tr>
+										    </thead>
+										    <tfoot>
+										        <tr><th colspan="2">Total <span class="checkout__total">$56.20</span></th></tr>
+										    </tfoot>
+										    <tbody>
+												<tr><td><strong>Throwing</strong> <span>Shoe</span></td><td>$9.90</td></tr>
+												<tr><td><strong>Donation</strong> <span>SynchVR Team</span></td><td>$5.50</td></tr>
+												<tr><td><strong>Green</strong> <span>T-Shirt</span></td><td>$11.00</td></tr>
+												<tr><td><strong>Red</strong> <span>T-Shirt</span></td><td>$19.90</td></tr>
+												<tr><td><strong>Black</strong> <span>T-Shirt</span></td><td>$9.90</td></tr>
+											</tbody>
+										</table><!-- /checkout__summary -->
+										<button class="checkout__option checkout__option--silent checkout__cancel"><i class="fa fa-angle-left"></i> Continue shopping</button></div><button class="checkout__option checkout__option--loud">Pay with Card ending in 1234</button>
+									<!-- /checkout__order-inner -->
+								</div><!-- /checkout__order -->
+							</div><!-- /checkout -->
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__item"></div>
+							<div class="dummy-sidebar__overlay"></div>
+						</div>
+						<div class="dummy-grid__item"></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"></div>
+						<div class="dummy-grid__item"></div>
+						<div class="dummy-grid__item"></div>
+						<div class="dummy-grid__item"></div>
+					</div><!-- /dummy-grid -->
+				</div>
+			</section> 
+			</div>
+		<script src="js/classie.js"></script>
+		<script>
+			(function() {
+				[].slice.call( document.querySelectorAll( '.checkout' ) ).forEach( function( el ) {
+					var openCtrl = el.querySelector( '.checkout__button' ),
+						closeCtrls = el.querySelectorAll( '.checkout__cancel' );
+
+					openCtrl.addEventListener( 'click', function(ev) {
+						ev.preventDefault();
+						classie.add( el, 'checkout--active' );
+					} );
+
+					[].slice.call( closeCtrls ).forEach( function( ctrl ) {
+						ctrl.addEventListener( 'click', function() {
+							classie.remove( el, 'checkout--active' );
+						} );
+					} );
+				} );
+			})();
+		</script>
+	</body>
+</html>
