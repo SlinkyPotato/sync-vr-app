@@ -17,4 +17,8 @@ public class UserAvatar : MonoBehaviour {
 	void Update () {
 		
 	}
+
+	public void updateClothes() {
+		
+	}
 }

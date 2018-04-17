@@ -6,7 +6,8 @@ TagManager:
   tags:
   - AddToCartLabel
   - Avatar
-  - PortalCamera
+  - GameManager
+  - ClothingWall
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - clothing
+  - Office
   - 
   - 
   - 
