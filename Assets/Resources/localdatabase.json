@@ -1,4 +1,6 @@
 
+/* categories: 0 -> business, 1 -> casual, 2 -> sport */
+/* clothing types: 0 -> top, 1 -> bottom, 2 -> shoes */
 {
   "products": {
     "female_business_!beige_flats@": {

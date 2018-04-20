@@ -30,17 +30,20 @@ public class DBManager : MonoBehaviour {
 	 * categories: 0 -> business, 1 -> casual, 2 -> sport
 	 * 
 	*/
-	public void GetProductsByCategory(int category, Action<DataSnapshot> handler) {
-		productRef.OrderByChild("category").EqualTo(category).GetValueAsync().ContinueWith(task => {
-			if (task.IsFaulted) {
-				Debug.LogError ("ERROR retreiving products by category");
-			} else if (task.IsCompleted) {
-				DataSnapshot snap = task.Result;
-				handler(snap);
-			} 
-		});
-	}
+//	public void GetProductsByCategory(int category, Action<DataSnapshot> handler) {
+//		productRef.OrderByChild("category").EqualTo(category).GetValueAsync().ContinueWith(task => {
+//			if (task.IsFaulted) {
+//				Debug.LogError ("ERROR retreiving products by category");
+//			} else if (task.IsCompleted) {
+//				DataSnapshot snap = task.Result;
+//				handler(snap);
+//			} 
+//		});
+//	}
 
+	/*
+	 * THIS GETS CALLED SECOND 
+	*/
 	public void GetAllProducts(Action<DataSnapshot> handler) {
 		productRef.GetValueAsync().ContinueWith(task => {
 			if (task.IsFaulted) {
@@ -56,20 +59,21 @@ public class DBManager : MonoBehaviour {
 	 * Returns a single product given its ID
 	 * 
 	*/
-	public void GetProductByID(string id, Action<DataSnapshot> handler) {
-		id = UnityPIDToFirebase (id);
-		productRef.Child(id).GetValueAsync().ContinueWith(task => {
-			if (task.IsFaulted) {
-				Debug.LogError ("ERROR retreiving products by category");
-			} else if (task.IsCompleted) {
-				DataSnapshot snap = task.Result;
-				handler(snap);
-			} 
-		});
-	}
+//	public void GetProductByID(string id, Action<DataSnapshot> handler) {
+//		id = UnityPIDToFirebase (id);
+//		productRef.Child(id).GetValueAsync().ContinueWith(task => {
+//			if (task.IsFaulted) {
+//				Debug.LogError ("ERROR retreiving products by category");
+//			} else if (task.IsCompleted) {
+//				DataSnapshot snap = task.Result;
+//				handler(snap);
+//			} 
+//		});
+//	}
 
 	/*
 	 * Returns the Cart JSON object for the current user
+	 * THIS GETS CALLED FIRST
 	 * 
 	*/
 	public void GetCartByCurrentUser(Action<DataSnapshot> handler) {
