@@ -31,7 +31,7 @@ public class CartManager : MonoBehaviour {
 		
 	public void RemoveItem(Product product) {
 		int index = cartItems.FindIndex (i => i.id == product.materialName);
-		if (index > 0) {
+		if (index > -1) {
 			cartItems.RemoveAt (index);
 			dbManager.UpdateCartForUser (cartItems);
 		}
@@ -39,13 +39,18 @@ public class CartManager : MonoBehaviour {
 
 	public void OnCartLoad(DataSnapshot d) {
 		cartItems = new List<CartItem> ();
-		foreach (DataSnapshot item in d.Child("product_list").Children) {
-			string id = item.Child ("product_id").Value.ToString();
-			int quantity = int.Parse (item.Child ("quantity").Value.ToString());
-			CartItem cartItem = new CartItem (id, quantity);
-			cartItems.Add (cartItem);
-		}
-		isInitialized = true;
+        foreach (DataSnapshot item in d.Child("product_list").Children)
+        {
+            string id = dbManager.FirebasePIDToUnity(item.Child("id").Value.ToString());
+            if (!id.Equals("do_not_delete"))
+            {
+                int quantity = int.Parse(item.Child("quantity").Value.ToString());
+                CartItem cartItem = new CartItem(id, quantity);
+                cartItems.Add(cartItem);
+            }
+        }
+
+        isInitialized = true;
 	}
 
 	public bool IsInCart(Product p) {
@@ -66,6 +71,14 @@ public class CartManager : MonoBehaviour {
 		return -1;
 	}
 
+	public string GetIDAtIndex(int i) {
+		return cartItems [i].id;
+	}
+
+	public int CartCount() {
+		return cartItems.Count;
+	}
+		
 	public bool IsInitialized() {
 		return isInitialized;
 	}

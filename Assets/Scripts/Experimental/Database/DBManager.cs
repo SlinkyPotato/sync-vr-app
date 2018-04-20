@@ -84,10 +84,20 @@ public class DBManager : MonoBehaviour {
 	}
 
 	public void UpdateCartForUser(List<CartItem> productList) {
-		string json = JsonUtility.ToJson (productList);
+        int indexOfDefault = productList.FindIndex(i => i.id.Equals("do_not_delete"));
+        if(indexOfDefault == -1)
+            productList.Add(new CartItem("do_not_delete", 0));
+        foreach(CartItem c in productList) { //must convert unity product id to firebase
+            c.id = UnityPIDToFirebase(c.id);
+        }
+        string json = ListToJSON(productList);
 		Debug.Log (json);
-		cartRef.Child("carts").Child(currentUser + "_cart").Child("product_list").SetRawJsonValueAsync(json);
-	}
+		cartRef.Child(currentUser + "_cart").Child("product_list").SetRawJsonValueAsync(json);
+        foreach (CartItem c in productList) //and then change it back to unity id since we overwrote the object id property
+        {
+            c.id = FirebasePIDToUnity(c.id);
+        }
+    }
 
 
 	public void ExHandler(DataSnapshot snap) {
@@ -103,4 +113,22 @@ public class DBManager : MonoBehaviour {
 		string newId = id.Replace ("!", "[");
 		return newId.Replace ("@", "]");
 	}
+
+    public string ListToJSON(List<CartItem> cartItems) {
+        int i = 0;
+        string json = "[";
+        foreach(CartItem c in cartItems) {
+            json = json + JsonUtility.ToJson(c);
+            if (i < cartItems.Count - 1) {
+                json = json + ",";
+            } else
+            {
+                json = json + "]";
+            }
+                
+            i++;
+        }
+        json = (cartItems.Count == 0) ? "[]" : json;
+        return json;
+    }
 }

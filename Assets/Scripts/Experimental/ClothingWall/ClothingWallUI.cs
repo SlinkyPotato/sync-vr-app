@@ -38,7 +38,7 @@ public class ClothingWallUI : MonoBehaviour {
 				quantity.text = "" + cartManager.GetQuantity (p);
 			} else {
 				cartIcon.sprite = Resources.Load<Sprite>("UI/icons/add_to_cart");
-				quantity.text = "3";
+				quantity.text = "1";
 			}
 		} catch(System.Exception e) {
 			Debug.LogError (e.StackTrace);
@@ -57,10 +57,12 @@ public class ClothingWallUI : MonoBehaviour {
 	public void OnCartButtonClick() {
 		if (cartManager.IsInCart (product)) {
 			cartManager.RemoveItem (product);
-		} else {
+            cartIcon.sprite = Resources.Load<Sprite>("UI/icons/add_to_cart");
+        } else {
 			cartManager.AddItem(product, int.Parse(quantity.text));
-		}
-		cartIcon.sprite = Resources.Load ("UI/icons/remove_from_cart") as Sprite;
+            cartIcon.sprite = Resources.Load<Sprite>("UI/icons/remove_from_cart");
+        }
+		
 	}
 
 }

@@ -8,9 +8,8 @@ public class ClothingWall : MonoBehaviour {
 
 	private DBManager dbManager;
 	private CartManager cartManager;
-	private List<GameObject> products;
+	private Dictionary<string, GameObject> products;
 	private List<GameObject> activeProducts;
-
 	public GameObject display1;
 	public GameObject display2;
 	public GameObject display3;
@@ -19,11 +18,15 @@ public class ClothingWall : MonoBehaviour {
 	private Product.ItemType type = Product.ItemType.Top;
 	private string gender = "male";
 
+	//we need the cartmanager to be setup before we do anything
 	private bool didSetup = false;
-	private bool showingCart = false;
 
-	// Use this for initialization
-	void Start () {
+    private void Awake() {
+        activeProducts = new List<GameObject>();
+    }
+
+    // Use this for initialization
+    void Start () {
 		dbManager = GameObject.FindGameObjectWithTag ("GameManager").GetComponent<DBManager>();
 		cartManager = GameObject.FindGameObjectWithTag ("GameManager").GetComponent<CartManager>();
 	}
@@ -40,13 +43,40 @@ public class ClothingWall : MonoBehaviour {
 
 	public void OnProductsLoad(DataSnapshot data) {
 		FilterAndConvert(data);
-		foreach (GameObject p in products) {
-			if(MeetsFilterCriteria(p.GetComponent<Product>())) {
-				activeProducts.Add(p);
-			}
-		}
+        SetActiveProducts();
 		UpdateDisplays ();
 	}
+
+    public void ChangeItemCategory(Product.ItemCategory cat) {
+        category = cat;
+        SetActiveProducts();
+        UpdateDisplays();
+    }
+
+    public void ChangeItemType(Product.ItemType t) {
+        type = t;
+        SetActiveProducts();
+        UpdateDisplays();
+    }
+
+	public void ShowCart(int left, int right) {
+		activeProducts = new List<GameObject> ();
+		for (int i = left; i <= right; i++) {
+			activeProducts.Add(products [cartManager.GetIDAtIndex (i)]);
+		}
+		UpdateDisplays ();
+    }
+
+    void SetActiveProducts() {
+        activeProducts = new List<GameObject>();
+		foreach (GameObject p in products.Values)
+        {
+            if (MeetsFilterCriteria(p.GetComponent<Product>()))
+            {
+                activeProducts.Add(p);
+            }
+        }
+    }
 
 	void UpdateDisplays() {
 		display1.GetComponent<ClothingWallUI>().UpdateUIElements (activeProducts [0].GetComponent<Product>());
@@ -56,8 +86,7 @@ public class ClothingWall : MonoBehaviour {
 
 	//use the snapshot data to create Products and store them in a list
 	void FilterAndConvert(DataSnapshot data) {
-		products = new List<GameObject> ();
-		activeProducts = new List<GameObject> ();
+		products = new Dictionary<string, GameObject> ();
 		foreach (DataSnapshot d in data.Children) {
 			string id = dbManager.FirebasePIDToUnity (d.Key);
 			string path = "Prefabs/Clothes/" + id;
@@ -70,7 +99,8 @@ public class ClothingWall : MonoBehaviour {
 			p.setType (int.Parse (d.Child ("type").Value.ToString ()));
 			p.setPrice(double.Parse (d.Child ("price").Value.ToString ()));
 			p.setGender (GetGenderFromID (d.Key));
-			products.Add (item);
+			products.Add (id, item);
+
 		}
 	}
 
