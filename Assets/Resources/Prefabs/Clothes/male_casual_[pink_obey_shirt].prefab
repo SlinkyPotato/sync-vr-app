@@ -109,6 +109,11 @@ GameObject:
   - component: {fileID: 114546841035212614}
   - component: {fileID: 114772592656480832}
   - component: {fileID: 114256258578899552}
+  - component: {fileID: 114250893075285650}
+  - component: {fileID: 114563914507398400}
+  - component: {fileID: 114683263637205170}
+  - component: {fileID: 114378461522747914}
+  - component: {fileID: 114521098369077380}
   m_Layer: 0
   m_Name: male_casual_[pink_obey_shirt]
   m_TagString: Untagged
@@ -569,6 +574,25 @@ MonoBehaviour:
   materialName: 
   gender: 
   isInCart: 0
+--- !u!114 &114250893075285650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069951778837460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
 --- !u!114 &114256258578899552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -741,6 +765,25 @@ MonoBehaviour:
   gender: 
   isInCart: 0
 --- !u!114 &114375831275002374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069951778837460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114378461522747914
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1063,6 +1106,25 @@ MonoBehaviour:
   materialName: 
   gender: 
   isInCart: 0
+--- !u!114 &114521098369077380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069951778837460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
 --- !u!114 &114523475480547792
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1140,6 +1202,25 @@ MonoBehaviour:
   gender: 
   isInCart: 0
 --- !u!114 &114552978849502370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069951778837460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114563914507398400
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1292,6 +1373,25 @@ MonoBehaviour:
   gender: 
   isInCart: 0
 --- !u!114 &114681405783995380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069951778837460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114683263637205170
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

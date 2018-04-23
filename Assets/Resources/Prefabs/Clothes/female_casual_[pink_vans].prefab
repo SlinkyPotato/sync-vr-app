@@ -123,6 +123,11 @@ GameObject:
   - component: {fileID: 114089525072772362}
   - component: {fileID: 114402241723130748}
   - component: {fileID: 114861332756795666}
+  - component: {fileID: 114097080953693212}
+  - component: {fileID: 114118614115658512}
+  - component: {fileID: 114103575389598762}
+  - component: {fileID: 114094761525387810}
+  - component: {fileID: 114816925209685624}
   m_Layer: 0
   m_Name: female_casual_[pink_vans]
   m_TagString: Untagged
@@ -374,6 +379,63 @@ MonoBehaviour:
   materialName: 
   gender: 
   isInCart: 0
+--- !u!114 &114094761525387810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951251442670948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114097080953693212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951251442670948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114103575389598762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951251442670948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
 --- !u!114 &114107107985377484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -394,6 +456,25 @@ MonoBehaviour:
   gender: 
   isInCart: 0
 --- !u!114 &114111511285896078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951251442670948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114118614115658512
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1648,6 +1729,25 @@ MonoBehaviour:
   gender: 
   isInCart: 0
 --- !u!114 &114815214587659932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1951251442670948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114816925209685624
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
