@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/checkout-sidebar.css" />
+		<script src="js/jquery-3.3.1.min.js"></script>
 	</head>
 	<body class="color-2">
 		<div class="container">
@@ -22,45 +23,86 @@
 				<div class="dummy-browser">
 					<div class="dummy-grid dummy-grid--filled dummy-grid--sidebar">
 						<div class="dummy-sidebar">
-							<div class="checkout">
-								<a class="checkout__button" href="#">Checkout</a>
+							<div class="checkout" id="sports">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="sports">
+									Sports
+								</a>
+							</div>
+							<div class="checkout" id="winter">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="winter">
+									Winter
+								</a>
+							</div>
+							<div class="checkout" id="baby">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="baby">
+									Baby
+								</a>
+							</div>
+							<div class="checkout" id="backpacks">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="backpacks">
+									Backpacks
+								</a>
+							</div>
+							<div class="checkout" id="keyboards">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="keyboards">
+									Keyboards
+								</a>
+							</div>
+							<div class="checkout" id="grocery">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="grocery">
+									Grocery
+								</a>
+							</div>
+							<div class="checkout" id="bedding">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="bedding">
+									Bedding
+								</a>
+							</div>
+							<div class="checkout" id="checkout">
+								<a class="checkout__button" href="#" id="checkout__button">Checkout</a>
 								<div class="checkout__order">
 									<div class="checkout__order-inner">
 										<table class="checkout__summary">
 											<thead>
-										        <tr><th>Your Order</th><th>Price</th></tr>
-										    </thead>
-										    <tfoot>
-										        <tr><th colspan="2">Total <span class="checkout__total">$56.20</span></th></tr>
-										    </tfoot>
-										    <tbody>
-												<tr><td><strong>Throwing</strong> <span>Shoe</span></td><td>$9.90</td></tr>
-												<tr><td><strong>Donation</strong> <span>SynchVR Team</span></td><td>$5.50</td></tr>
-												<tr><td><strong>Green</strong> <span>T-Shirt</span></td><td>$11.00</td></tr>
-												<tr><td><strong>Red</strong> <span>T-Shirt</span></td><td>$19.90</td></tr>
-												<tr><td><strong>Black</strong> <span>T-Shirt</span></td><td>$9.90</td></tr>
+											<tr><th>Your Order</th><th>Price</th></tr>
+											</thead>
+											<tfoot>
+											<tr><th colspan="2">Total <span class="checkout__total">$56.20</span></th></tr>
+											</tfoot>
+											<tbody>
+											<tr><td><strong>Throwing</strong> <span>Shoe</span></td><td>$9.90</td></tr>
+											<tr><td><strong>Donation</strong> <span>SynchVR Team</span></td><td>$5.50</td></tr>
+											<tr><td><strong>Green</strong> <span>T-Shirt</span></td><td>$11.00</td></tr>
+											<tr><td><strong>Red</strong> <span>T-Shirt</span></td><td>$19.90</td></tr>
+											<tr><td><strong>Black</strong> <span>T-Shirt</span></td><td>$9.90</td></tr>
 											</tbody>
 										</table><!-- /checkout__summary -->
-										<button class="checkout__option checkout__option--silent checkout__cancel"><i class="fa fa-angle-left"></i> Continue shopping</button></div><button class="checkout__option checkout__option--loud">Pay with Card ending in 1234</button>
+										<button class="checkout__option checkout__option--silent checkout__cancel" id="checkout__cancel"><i class="fa fa-angle-left"></i> Continue shopping</button></div><button class="checkout__option checkout__option--loud">Pay with Card ending in 1234</button>
 									<!-- /checkout__order-inner -->
 								</div><!-- /checkout__order -->
 							</div><!-- /checkout -->
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
 							<div class="dummy-sidebar__overlay"></div>
 						</div>
-						<div class="dummy-grid__item"></div>
 						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
-						<div class="dummy-grid__item"></div>
-						<div class="dummy-grid__item"></div>
-						<div class="dummy-grid__item"></div>
-						<div class="dummy-grid__item"></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
 					</div><!-- /dummy-grid -->
 				</div>
 			</section> 
@@ -68,21 +110,102 @@
 		<script src="js/classie.js"></script>
 		<script>
 			(function() {
-				[].slice.call( document.querySelectorAll( '.checkout' ) ).forEach( function( el ) {
-					var openCtrl = el.querySelector( '.checkout__button' ),
-						closeCtrls = el.querySelectorAll( '.checkout__cancel' );
+			    var descriptions = {
+			      sports: [
+			          'Multi-color Kickball $4.89',
+					  'Sport Brella Shelter $41.79',
+					  'Band-Aid Sport Strip $2.98',
+					  'Franklin Sports MLS $4.88',
+					  'Swim Ways Coop Scatter $19.99',
+					  'Goliath Sports Blue/Purple $10.99'
+				  ],
+					winter: [
+					    'Arctic Cat Women Warm $20.00',
+						'LEGO Christmas Winter $319.99',
+						'Blackwood winter boots $20.00',
+						'Totes Taylor Toddler Boots $24.99',
+						'Womens Reindeer Winter $31.45',
+						'Mens Winter Hockey Games $31.45'
+					],
+					baby: [
+					    'Aveeno Baby Wash & Shampoo $4.75',
+						'Baby Alive Powdered Doll Food $6.99',
+						'Little Mommy Baby So New Lady $16.46',
+						'Baby Born Mommy! Look I Can Swim! $34.97',
+						'Waterbabies Bath Time Fun Doll Playset $17.99',
+						'My Sweet Love 20 Inches Doll to cuddle $20.00'
+					],
+					backpacks: [
+					    'Swissdigital Gigabyte $40.83',
+						'Eastsport Future Tech Storage $14.88',
+						'Case Logic VNB-217 Notebook Backpack $38.49',
+						'Fuel Athleisure Sleek Padded Support $18.88',
+						'Nintendo Game Boy Backpack Apparel $49.99',
+						'Call of Duty Black Military Roll Top $39.99'
+					],
+					keyboards: [
+					    'Logitech K120 USB Keyboard - Black $8.99',
+						'CORSAIR Gaming K55 RGB USB Keyboard $47.99',
+						'Razer Ornata USB Mecha-membrane Keyboard $89.99',
+						'Iogear Kaliber Gaming Keyboard - Black/Gray $24.95',
+						'Logitech Prodigy G213 USB Keyboard $34.99',
+						'HP K1500 USB Keyboard for HP 110-330na $9.99'
+					],
+					grocery: [
+					    'Market Pantry Bread Crumbs $1.79',
+						'Kirkland Signature Mixed Nuts $11.99',
+						'Mandarin Oranges Fruit Cup 12ct $5.29',
+						'Kirkland Thai Hom Mali Jasmine $20.08',
+						'Glaceau Vitamin Water 16.9 fl oz $3.98',
+						'Tazo Chai Skinny Latte 32 fl oz carton $2.98'
+					],
+					bedding: [
+					    'Glam Script Reversible $29.99',
+						'Nanshing Bella 7-Piece $85.99',
+						'Vcny Home Pineapple Quilt $45.84',
+						'Presidio Sqaure Carson White $72.50',
+						'Mainstays Kokopelli Set, Multicolor $38.99',
+						'Formula Tula Tuliips Bedding Set, Queen $49.99'
+					]
+				};
+			    var checkoutBtn = document.querySelector( '#checkout' );
+                var openCtrl = checkoutBtn.querySelector( '#checkout__button' ),
+                    closeCtrls = checkoutBtn.querySelectorAll( '.checkout__cancel' );
 
-					openCtrl.addEventListener( 'click', function(ev) {
-						ev.preventDefault();
-						classie.add( el, 'checkout--active' );
-					} );
+                openCtrl.addEventListener( 'click', function(ev) {
+                    ev.preventDefault();
+                    classie.add(checkoutBtn , 'checkout--active' );
+                } );
 
-					[].slice.call( closeCtrls ).forEach( function( ctrl ) {
-						ctrl.addEventListener( 'click', function() {
-							classie.remove( el, 'checkout--active' );
-						} );
-					} );
-				} );
+                [].slice.call( closeCtrls ).forEach( function( ctrl ) {
+                    ctrl.addEventListener( 'click', function() {
+                        classie.remove( checkoutBtn, 'checkout--active' );
+                    } );
+                } );
+
+                var category = 'sports';
+                var description = descriptions[category];
+                var basePath = './img/' + category;
+                $('.dummy-grid__item>img').each(function(index){
+                    $(this).attr('src', basePath + '/' + index + '.jpg');
+                });
+                $('.dummy-grid__item>p').each(function(index){
+                    $(this).text(description[index]);
+                });
+
+                $('a.category').click(function(e) {
+                  e.preventDefault();
+                  var category = $(this).attr('data-category');
+                  var description = descriptions[category];
+                  var basePath = './img/' + category;
+					$('.dummy-grid__item>img').each(function(index){
+					  $(this).attr('src', basePath + '/' + index + '.jpg');
+                  	});
+                    $('.dummy-grid__item>p').each(function(index){
+                        $(this).text(description[index]);
+                    });
+                  return false;
+				});
 			})();
 		</script>
 	</body>
