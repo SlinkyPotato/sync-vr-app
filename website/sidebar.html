@@ -11,6 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/checkout-sidebar.css" />
+		<script src="js/jquery-3.3.1.min.js"></script>
 	</head>
 	<body class="color-2">
 		<div class="container">
@@ -22,45 +23,79 @@
 				<div class="dummy-browser">
 					<div class="dummy-grid dummy-grid--filled dummy-grid--sidebar">
 						<div class="dummy-sidebar">
-							<div class="checkout">
-								<a class="checkout__button" href="#">Checkout</a>
+							<div class="checkout" id="sports">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="sports">
+									Activewear
+								</a>
+							</div>
+							<div class="checkout" id="winter">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="winter">
+									Winter
+								</a>
+							</div>
+							<div class="checkout" id="jeans">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="jeans">
+									Jeans
+								</a>
+							</div>
+							<div class="checkout" id="bottoms">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="bottoms">
+									Bottoms
+								</a>
+							</div>
+							<div class="checkout" id="dresses">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="dresses">
+									Dresses
+								</a>
+							</div>
+							<div class="checkout" id="sleepwear">
+								<a class="checkout__button category"
+								   href="#"
+								   data-category="sleepwear">
+									Sleepwear
+								</a>
+							</div>
+							<div class="checkout" id="checkout">
+								<a class="checkout__button" href="#" id="checkout__button">Checkout</a>
 								<div class="checkout__order">
 									<div class="checkout__order-inner">
 										<table class="checkout__summary">
 											<thead>
-										        <tr><th>Your Order</th><th>Price</th></tr>
-										    </thead>
-										    <tfoot>
-										        <tr><th colspan="2">Total <span class="checkout__total">$56.20</span></th></tr>
-										    </tfoot>
-										    <tbody>
-												<tr><td><strong>Throwing</strong> <span>Shoe</span></td><td>$9.90</td></tr>
-												<tr><td><strong>Donation</strong> <span>SynchVR Team</span></td><td>$5.50</td></tr>
-												<tr><td><strong>Green</strong> <span>T-Shirt</span></td><td>$11.00</td></tr>
-												<tr><td><strong>Red</strong> <span>T-Shirt</span></td><td>$19.90</td></tr>
-												<tr><td><strong>Black</strong> <span>T-Shirt</span></td><td>$9.90</td></tr>
+											<tr><th>Your Order</th><th>Price</th></tr>
+											</thead>
+											<tfoot>
+											<tr><th colspan="2">Total <span class="checkout__total">$56.20</span></th></tr>
+											</tfoot>
+											<tbody>
+											<tr><td><strong>Throwing</strong> <span>Shoe</span></td><td>$9.90</td></tr>
+											<tr><td><strong>Donation</strong> <span>SynchVR Team</span></td><td>$5.50</td></tr>
+											<tr><td><strong>Green</strong> <span>T-Shirt</span></td><td>$11.00</td></tr>
+											<tr><td><strong>Red</strong> <span>T-Shirt</span></td><td>$19.90</td></tr>
+											<tr><td><strong>Black</strong> <span>T-Shirt</span></td><td>$9.90</td></tr>
 											</tbody>
 										</table><!-- /checkout__summary -->
-										<button class="checkout__option checkout__option--silent checkout__cancel"><i class="fa fa-angle-left"></i> Continue shopping</button></div><button class="checkout__option checkout__option--loud">Pay with Card ending in 1234</button>
+										<button class="checkout__option checkout__option--silent checkout__cancel" id="checkout__cancel"><i class="fa fa-angle-left"></i> Continue shopping</button></div><button class="checkout__option checkout__option--loud">Pay with Card ending in 1234</button>
 									<!-- /checkout__order-inner -->
 								</div><!-- /checkout__order -->
 							</div><!-- /checkout -->
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
-							<div class="dummy-sidebar__item"></div>
 							<div class="dummy-sidebar__overlay"></div>
 						</div>
-						<div class="dummy-grid__item"></div>
 						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
-						<div class="dummy-grid__item"></div>
-						<div class="dummy-grid__item"></div>
-						<div class="dummy-grid__item"></div>
-						<div class="dummy-grid__item"></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
+						<div class="dummy-grid__item"><img src="./img/s1.png"><p>White T-Shirt $9.90</p></div>
 					</div><!-- /dummy-grid -->
 				</div>
 			</section> 
@@ -68,21 +103,94 @@
 		<script src="js/classie.js"></script>
 		<script>
 			(function() {
-				[].slice.call( document.querySelectorAll( '.checkout' ) ).forEach( function( el ) {
-					var openCtrl = el.querySelector( '.checkout__button' ),
-						closeCtrls = el.querySelectorAll( '.checkout__cancel' );
+			    var descriptions = {
+			      sports: [
+			          'Tank Shirt $32.99',
+					  'Marmot Tullus $175.00',
+					  'Nike Women Dri-Fit $54.99',
+					  'Nike Women Vapor Court $50.00',
+					  'Hue Women Cotton-Blend Legging $8.55',
+					  'Canada Goose Chilliwack Fur Trimmed $395.00'
+				  ],
+					winter: [
+					    'Arctic Cat Women Warm $20.00',
+						'Canada Weather Gear Men $1050.00',
+						'Canada Goose Men Constable $395.00',
+						'Arcteryx RHO Zip Neck - Women $99.00',
+						'Rothco Solid Color Shemagh-Tactical $33.99',
+						'Muk LUKS Boots Women NOLA Faux Fur Lined $68.00'
+					],
+					jeans: [
+					    'Wrangler Men 5-Star $17.77',
+						'Hudson Jeans Mens Slouchy $9.96',
+						'Men Gettysburg Denim Jean $21.92',
+						'Women Apt. 9 Embellished Bootcut $37.99',
+						'Paper Denim & Cloth Men Skinny Fit $9.96',
+						'Soho Jeans Curvy Bootcut Blue Tease $29.99'
+					],
+					bottoms: [
+					    'Adidas Men Originals $79.95',
+						'Men Patagonia Printed $49.00',
+						'Zumba Fitness Women Outta-My-Space $89.00',
+						'Arizona French Terry Jogger Pants $17.99',
+						'Adidas Mens Originals Running Track $64.95',
+						'Adidas Originals Adi Firebird Track $64.95'
+					],
+					dresses: [
+					    'Womens Floral Print $19.58',
+						'Parosh 3/4 Length Dress $146.99',
+						'Zara Floral Print Dress $29.99',
+						'Bonnie Jean Girls Pucker $33.99',
+						'Global Elle Flower Print $39.99',
+						'Zhishang Floral Print Dress $27.99'
+					],
+					sleepwear: [
+					    'Jockey Womens Sleepwear $12.99',
+						'Plus Size Chip N Dale Womens $9.97',
+						'Womens Jockey Pajamas: Short Sleeve $8.00',
+						'Womens 100% Cotton Knitted Comfort Fit $48.00',
+						'Womens Pajama Pants - Xhilaration Dark Gray $9.97',
+						'Hanes Womens Knit Notched Collar Top and Pants $15.99',
+					]
+				};
+			    var checkoutBtn = document.querySelector( '#checkout' );
+                var openCtrl = checkoutBtn.querySelector( '#checkout__button' ),
+                    closeCtrls = checkoutBtn.querySelectorAll( '.checkout__cancel' );
 
-					openCtrl.addEventListener( 'click', function(ev) {
-						ev.preventDefault();
-						classie.add( el, 'checkout--active' );
-					} );
+                openCtrl.addEventListener( 'click', function(ev) {
+                    ev.preventDefault();
+                    classie.add(checkoutBtn , 'checkout--active' );
+                } );
 
-					[].slice.call( closeCtrls ).forEach( function( ctrl ) {
-						ctrl.addEventListener( 'click', function() {
-							classie.remove( el, 'checkout--active' );
-						} );
-					} );
-				} );
+                [].slice.call( closeCtrls ).forEach( function( ctrl ) {
+                    ctrl.addEventListener( 'click', function() {
+                        classie.remove( checkoutBtn, 'checkout--active' );
+                    } );
+                } );
+
+                var category = 'sports';
+                var description = descriptions[category];
+                var basePath = './img/' + category;
+                $('.dummy-grid__item>img').each(function(index){
+                    $(this).attr('src', basePath + '/' + index + '.jpg');
+                });
+                $('.dummy-grid__item>p').each(function(index){
+                    $(this).text(description[index]);
+                });
+
+                $('a.category').click(function(e) {
+                  e.preventDefault();
+                  var category = $(this).attr('data-category');
+                  var description = descriptions[category];
+                  var basePath = './img/' + category;
+					$('.dummy-grid__item>img').each(function(index){
+					  $(this).attr('src', basePath + '/' + index + '.jpg');
+                  	});
+                    $('.dummy-grid__item>p').each(function(index){
+                        $(this).text(description[index]);
+                    });
+                  return false;
+				});
 			})();
 		</script>
 	</body>
