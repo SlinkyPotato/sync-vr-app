@@ -3,7 +3,7 @@ function saveToCart() {
 }
 (function() {
 	// Firebase initialization
-	var fire_database firebase.database();
+	// var fire_database = firebase.database();
 
     var descriptions = {
       sports: [
@@ -56,7 +56,7 @@ function saveToCart() {
 		]
 	};
     var checkoutBtn = document.querySelector( '#checkout' );
-    var openCtrl = checkoutBtn.querySelector( '#checkout__button' ),
+    var openCtrl = checkoutBtn.querySelector( '#checkout__button' );
         closeCtrls = checkoutBtn.querySelectorAll( '.checkout__cancel' );
 
     openCtrl.addEventListener( 'click', function(ev) {
