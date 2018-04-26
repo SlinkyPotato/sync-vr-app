@@ -3,7 +3,13 @@ function saveToCart() {
 }
 (function() {
 	// Firebase initialization
-	var fire_database = firebase.database();
+	var fireDb = firebase.database();
+
+	// var userId = firebase.auth().currentUser.uid;
+	fireDb.ref('/carts/user1_cart/product_list').once('value').then(function(snapshot) {
+		var products = snapshot.val() || [];
+		console.log(products);
+	});
 
     var descriptions = {
       sports: [
@@ -80,6 +86,7 @@ function saveToCart() {
         $(this).text(description[index]);
     });
 
+    // Change the categories when a category button gets hit
     $('a.category').click(function(e) {
       e.preventDefault();
       var category = $(this).attr('data-category');
@@ -92,5 +99,13 @@ function saveToCart() {
             $(this).text(description[index]);
         });
       return false;
+	});
+
+	$('img.img-item').click(function(e) {
+		e.preventDefault();
+		var element = e.target;
+		console.log(element.id);
+		console.log(e);
+		return false;
 	});
 })();
