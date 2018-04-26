@@ -3,7 +3,7 @@ function saveToCart() {
 }
 (function() {
 	// Firebase initialization
-	var fire_database firebase.database();
+	var fire_database = firebase.database();
 
     var descriptions = {
       sports: [
