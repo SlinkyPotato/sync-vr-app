@@ -4,6 +4,7 @@
     text-align: center;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    margin-top: 7px;
 }
 
 a.checkout__button {
