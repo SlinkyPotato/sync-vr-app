@@ -2,95 +2,106 @@ function saveToCart() {
 	
 }
 (function() {
-	// Firebase initialization
-	// var fire_database = firebase.database();
-
     var descriptions = {
-      sports: [
-          'Tank Shirt $32.99',
-		  'Marmot Tullus $175.00',
-		  'Nike Women Dri-Fit $54.99',
-		  'Nike Women Vapor Court $50.00',
-		  'Hue Women Cotton-Blend Legging $8.55',
-		  'Canada Goose Chilliwack Fur Trimmed $395.00'
-	  ],
-		winter: [
-		    'Arctic Cat Women Warm $20.00',
-			'Canada Weather Gear Men $1050.00',
-			'Canada Goose Men Constable $395.00',
-			'Arcteryx RHO Zip Neck - Women $99.00',
-			'Rothco Solid Color Shemagh-Tactical $33.99',
-			'Muk LUKS Boots Women NOLA Faux Fur Lined $68.00'
-		],
-		jeans: [
-		    'Wrangler Men 5-Star $17.77',
-			'Hudson Jeans Mens Slouchy $9.96',
-			'Men Gettysburg Denim Jean $21.92',
-			'Women Apt. 9 Embellished Bootcut $37.99',
-			'Paper Denim & Cloth Men Skinny Fit $9.96',
-			'Soho Jeans Curvy Bootcut Blue Tease $29.99'
-		],
-		bottoms: [
-		    'Adidas Men Originals $79.95',
-			'Men Patagonia Printed $49.00',
-			'Zumba Fitness Women Outta-My-Space $89.00',
-			'Arizona French Terry Jogger Pants $17.99',
-			'Adidas Mens Originals Running Track $64.95',
-			'Adidas Originals Adi Firebird Track $64.95'
-		],
-		dresses: [
-		    'Womens Floral Print $19.58',
-			'Parosh 3/4 Length Dress $146.99',
-			'Zara Floral Print Dress $29.99',
-			'Bonnie Jean Girls Pucker $33.99',
-			'Global Elle Flower Print $39.99',
-			'Zhishang Floral Print Dress $27.99'
-		],
-		sleepwear: [
-		    'Jockey Womens Sleepwear $12.99',
-			'Plus Size Chip N Dale Womens $9.97',
-			'Womens Jockey Pajamas: Short Sleeve $8.00',
-			'Womens 100% Cotton Knitted Comfort Fit $48.00',
-			'Womens Pajama Pants - Xhilaration Dark Gray $9.97',
-			'Hanes Womens Knit Notched Collar Top and Pants $15.99',
-		]
-	};
+        business: [
+            'Beige Flats $32.99',
+            'Black Flats $175.00',
+            'Black Skirt $54.99',
+            'Black Tip Flats $50.00',
+            'Khaki Business Shirt $8.55',
+            'Khaki Skirt $395.00',
+            'Teal Business Shirt $20.00',
+            'White Business Shirt $20.00',
+            'White Skirt $20.00'
+        ],
+        casual: [
+            'Black and white Vans $20.00',
+            'Black Synchrony Tee $1050.00',
+            'Burgundy Pants $32.99',
+            'Jeans $395.00',
+            'Khaki Pants $99.00',
+            'Pink Synchrony Tee $33.99',
+            'Pink Vans $68.00',
+            'Plaid Vans $17.77',
+            'Purple Tee $9.96'
+        ],
+        sport: [
+            'Black Running Shoes $17.77',
+            'Brown Running Shoes $9.96',
+            'Grey Leggings $21.92',
+            'Grey Tank Top $37.99',
+            'Meshed Leggings $9.96',
+            'Pink Leggings $29.99',
+            'Pink Tank Top $79.95',
+            'Teal Tank Top $20.00',
+            'White Running Shoes $1050.00'
+        ],
+        maleBusiness: [
+            'Black Dress Shirt $79.95',
+            'Black Oxfords $49.00',
+            'Black Slacks $89.00',
+            'Brown Oxfords $17.99',
+            'Casual Oxfords $64.95',
+            'Grey Dress Shirt $64.95',
+            'Grey Slacks $19.58',
+            'Khaki Slacks $146.99',
+            'Striped Dress Shirt $29.99'
+        ],
+        maleCasual: [
+            'Black and white Vans $19.58',
+            'Blue and white Vans $146.99',
+            'Burgundy Pants $29.99',
+            'Gradient Long Sleeve $33.99',
+            'Jeans $39.99',
+            'Khaki Pants $27.99',
+            'Pink Obey Shirt $79.95',
+            'Red and White Shirt $12.99',
+            'Red and White Vans $79.95'
+        ],
+        maleSport: [
+            'Black Gold Sneakers $12.99',
+            'Black Running Shorts $9.97',
+            'Black Synchrony Tank Top $8.00',
+            'Blue Running Shorts $48.00',
+            'Blue Sneakers $49.97',
+            'Gold Sneakers $15.99',
+            'Grey Tank Top $19.58',
+            'Orange Synchrony Tank Top $146.99',
+            'Red Running Shorts $29.99'
+        ]
+    };
     var checkoutBtn = document.querySelector( '#checkout' );
-    var openCtrl = checkoutBtn.querySelector( '#checkout__button' );
+    var openCtrl = checkoutBtn.querySelector( '#checkout__button' ),
         closeCtrls = checkoutBtn.querySelectorAll( '.checkout__cancel' );
-
     openCtrl.addEventListener( 'click', function(ev) {
         ev.preventDefault();
         classie.add(checkoutBtn , 'checkout--active' );
     } );
-
     [].slice.call( closeCtrls ).forEach( function( ctrl ) {
         ctrl.addEventListener( 'click', function() {
             classie.remove( checkoutBtn, 'checkout--active' );
         } );
     } );
-
-    var category = 'sports';
+    var category = 'business';
     var description = descriptions[category];
     var basePath = './img/' + category;
     $('.dummy-grid__item>img').each(function(index){
-        $(this).attr('src', basePath + '/' + index + '.jpg');
+        $(this).attr('src', basePath + '/' + index + '.png');
     });
     $('.dummy-grid__item>p').each(function(index){
         $(this).text(description[index]);
     });
-
     $('a.category').click(function(e) {
-      e.preventDefault();
-      var category = $(this).attr('data-category');
-      var description = descriptions[category];
-      var basePath = './img/' + category;
-		$('.dummy-grid__item>img').each(function(index){
-		  $(this).attr('src', basePath + '/' + index + '.jpg');
-      	});
+        e.preventDefault();
+        var category = $(this).attr('data-category');
+        var description = descriptions[category];
+        var basePath = './img/' + category;
+        $('.dummy-grid__item>img').each(function(index){
+            $(this).attr('src', basePath + '/' + index + '.png');
+        });
         $('.dummy-grid__item>p').each(function(index){
             $(this).text(description[index]);
         });
-      return false;
-	});
+        return false;
+    });
 })();
