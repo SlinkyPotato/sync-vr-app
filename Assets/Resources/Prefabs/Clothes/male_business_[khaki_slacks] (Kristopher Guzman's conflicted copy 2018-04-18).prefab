@@ -1,0 +1,1424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1735621803108838}
+  m_IsPrefabParent: 1
+--- !u!1 &1735621803108838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4324713207997856}
+  - component: {fileID: 33739108700293610}
+  - component: {fileID: 23180247759626330}
+  - component: {fileID: 114203414305493316}
+  - component: {fileID: 114385628781781816}
+  - component: {fileID: 114744334779207088}
+  - component: {fileID: 114912273416245274}
+  - component: {fileID: 114799129361156726}
+  - component: {fileID: 114822415059425520}
+  - component: {fileID: 114730822246852378}
+  - component: {fileID: 114342176940232968}
+  - component: {fileID: 114238237793000894}
+  - component: {fileID: 114941146707347406}
+  - component: {fileID: 114583157345268798}
+  - component: {fileID: 114556777046080486}
+  - component: {fileID: 114798840472974982}
+  - component: {fileID: 114185802116420870}
+  - component: {fileID: 114815760187797126}
+  - component: {fileID: 114237377047353398}
+  - component: {fileID: 114922577122866792}
+  - component: {fileID: 114744000911249754}
+  - component: {fileID: 114647190332472504}
+  - component: {fileID: 114609583693760944}
+  - component: {fileID: 114977939854817530}
+  - component: {fileID: 114640471930396382}
+  - component: {fileID: 114145928586247292}
+  - component: {fileID: 114151876715018418}
+  - component: {fileID: 114495001215669888}
+  - component: {fileID: 114127100083669702}
+  - component: {fileID: 114467649801026866}
+  - component: {fileID: 114829292969781052}
+  - component: {fileID: 114841395622352770}
+  - component: {fileID: 114792878657919930}
+  - component: {fileID: 114733260850777800}
+  - component: {fileID: 114557925251669854}
+  - component: {fileID: 114506328881233666}
+  - component: {fileID: 114795838285833490}
+  - component: {fileID: 114770064692139038}
+  - component: {fileID: 114271405359850996}
+  - component: {fileID: 114817777210615870}
+  - component: {fileID: 114868395855798272}
+  - component: {fileID: 114387738057742354}
+  - component: {fileID: 114939326145355606}
+  - component: {fileID: 114884584217146380}
+  - component: {fileID: 114023825157608606}
+  - component: {fileID: 114207549538209824}
+  - component: {fileID: 114604522683065392}
+  - component: {fileID: 114421775763241782}
+  - component: {fileID: 114101251447890130}
+  - component: {fileID: 114518525913198074}
+  - component: {fileID: 114053368193208810}
+  - component: {fileID: 114270923639560060}
+  - component: {fileID: 114067615276435198}
+  - component: {fileID: 114335221553795870}
+  - component: {fileID: 114487896771040634}
+  - component: {fileID: 114939513405144330}
+  - component: {fileID: 114600488812457606}
+  - component: {fileID: 114741288267826878}
+  - component: {fileID: 114235827005968792}
+  - component: {fileID: 114546572629078842}
+  - component: {fileID: 114319935387325642}
+  - component: {fileID: 114630101523185258}
+  - component: {fileID: 114747126923111418}
+  - component: {fileID: 114529977025051772}
+  - component: {fileID: 114706269664251650}
+  - component: {fileID: 114451159931805222}
+  - component: {fileID: 114665636900451900}
+  - component: {fileID: 114114685585752214}
+  - component: {fileID: 114761012499852396}
+  - component: {fileID: 114742606663597502}
+  m_Layer: 0
+  m_Name: male_business_[khaki_slacks] (Kristopher Guzman's conflicted copy 2018-04-18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4324713207997856
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.398396, y: 0.584, z: -18.53}
+  m_LocalScale: {x: 1.5899999, y: 1.5899999, z: 1.5899999}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23180247759626330
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6f2360ff9247647b58c9a2a7845d1295, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33739108700293610
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Mesh: {fileID: 4300006, guid: 0d73b09dff45c412a8b236946fc20f86, type: 3}
+--- !u!114 &114023825157608606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114053368193208810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114067615276435198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114101251447890130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114114685585752214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114127100083669702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114145928586247292
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114151876715018418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114185802116420870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114203414305493316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: male
+  isInCart: 0
+--- !u!114 &114207549538209824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114235827005968792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114237377047353398
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114238237793000894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114270923639560060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114271405359850996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114319935387325642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114335221553795870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114342176940232968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114385628781781816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: khaki_slacks
+  price: 0
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114387738057742354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114421775763241782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114451159931805222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114467649801026866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114487896771040634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114495001215669888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114506328881233666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114518525913198074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114529977025051772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114546572629078842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114556777046080486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114557925251669854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114583157345268798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114600488812457606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114604522683065392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114609583693760944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114630101523185258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114640471930396382
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114647190332472504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114665636900451900
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114706269664251650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114730822246852378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114733260850777800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114741288267826878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114742606663597502
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114744000911249754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114744334779207088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: khaki_slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114747126923111418
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114761012499852396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114770064692139038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114792878657919930
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114795838285833490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114798840472974982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114799129361156726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114815760187797126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114817777210615870
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114822415059425520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114829292969781052
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114841395622352770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114868395855798272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114884584217146380
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114912273416245274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: khaki_slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114922577122866792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114939326145355606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114939513405144330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114941146707347406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Khaki Slacks
+  price: 41.99
+  type: 1
+  brand: 
+  category: 0
+  materialName: male_business_[khaki_slacks]
+  gender: 
+  isInCart: 0
+--- !u!114 &114977939854817530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1735621803108838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0

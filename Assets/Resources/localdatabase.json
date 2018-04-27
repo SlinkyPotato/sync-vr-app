@@ -1,0 +1,311 @@
+
+/* categories: 0 -> business, 1 -> casual, 2 -> sport */
+/* clothing types: 0 -> top, 1 -> bottom, 2 -> shoes */
+{
+  "products": {
+    "female_business_!beige_flats@": {
+      "price": 49.99,
+      "type": 2,
+      "category": 0
+    },
+    "female_business_!black_flats@": {
+      "price": 49.99,
+      "type": 2,
+      "category": 0
+    },
+	"female_business_!black_skirt@": {
+      "price": 29.99,
+      "type": 1,
+      "category": 0
+    },
+	"female_business_!black_tip_flats@": {
+      "price": 49.99,
+      "type": 2,
+      "category": 0
+    },
+	"female_business_!khaki_business_shirt@": {
+      "price": 39.99,
+      "type": 0,
+      "category": 0
+    },
+	"female_business_!khaki_skirt@": {
+      "price": 69.99,
+      "type": 0,
+      "category": 0
+    },
+	"female_business_!teal_business_shirt@": {
+      "price": 39.99,
+      "type": 0,
+      "category": 0
+    },
+	"female_business_!white_business_shirt@": {
+      "price": 39.99,
+      "type": 0,
+      "category": 0
+    },
+	"female_business_!white_skirt@": {
+      "price": 69.99,
+      "type": 1,
+      "category": 0
+    },
+	"female_casual_!black_and_white_vans@": {
+      "price": 54.99,
+      "type": 2,
+      "category": 1
+    },
+	"female_casual_!plaid_vans@": {
+      "price": 44.99,
+      "type": 2,
+      "category": 1
+    },
+	"female_casual_!black_synchrony_tee@": {
+      "price": 24.99,
+      "type": 0,
+      "category": 1
+    },
+	"female_casual_!burgundy_pants@": {
+      "price": 34.99,
+      "type": 1,
+      "category": 1
+    },
+	"female_casual_!jeans@": {
+      "price": 34.99,
+      "type": 1,
+      "category": 1
+    },
+	"female_casual_!khaki_pants@": {
+      "price": 44.99,
+      "type": 1,
+      "category": 1
+    },
+	"female_casual_!pink_synchrony_tee@": {
+      "price": 24.99,
+      "type": 0,
+      "category": 1
+    },
+	"female_casual_!pink_vans@": {
+      "price": 74.99,
+      "type": 2,
+      "category": 1
+    },
+	"female_casual_!purple_tee@": {
+      "price": 14.99,
+      "type": 0,
+      "category": 1
+    },
+	"female_sport_!black_running_shoes@": {
+      "price": 64.99,
+      "type": 2,
+      "category": 2
+    },
+	"female_sport_!brown_running_shoes@": {
+      "price": 34.99,
+      "type": 2,
+      "category": 2
+    },
+	"female_sport_!grey_leggings@": {
+      "price": 32.99,
+      "type": 1,
+      "category": 2
+    },
+	"female_sport_!grey_tank_top@": {
+      "price": 15.99,
+      "type": 0,
+      "category": 2
+    },
+	"female_sport_!meshed_leggings@": {
+      "price": 35.99,
+      "type": 1,
+      "category": 2
+    },
+	"female_sport_!pink_leggings@": {
+      "price": 35.99,
+      "type": 1,
+      "category": 2
+    },
+	"female_sport_!pink_tank_top@": {
+      "price": 25.99,
+      "type": 0,
+      "category": 2
+    },
+	"female_sport_!teal_tank_top@": {
+      "price": 25.99,
+      "type": 0,
+      "category": 2
+    },
+	"female_sport_!white_running_shoes@": {
+      "price": 55.99,
+      "type": 2,
+      "category": 2
+    },
+	"male_business_!black_dress_shirt@": {
+      "price": 31.99,
+      "type": 0,
+      "category": 0
+    },
+	"male_business_!black_oxfords@": {
+      "price": 61.99,
+      "type": 2,
+      "category": 0
+    },
+	"male_business_!black_slacks@": {
+      "price": 41.99,
+      "type": 1,
+      "category": 0
+    },
+	"male_business_!brown_oxfords@": {
+      "price": 61.99,
+      "type": 2,
+      "category": 0
+    },
+	"male_business_!casual_oxfords@": {
+      "price": 61.99,
+      "type": 2,
+      "category": 0
+    },
+	"male_business_!grey_dress_shirt@": {
+      "price": 31.99,
+      "type": 0,
+      "category": 0
+    },
+	"male_business_!grey_slacks@": {
+      "price": 41.99,
+      "type": 1,
+      "category": 0
+    },
+	"male_business_!khaki_slacks@": {
+      "price": 41.99,
+      "type": 1,
+      "category": 0
+    },
+	"male_business_!striped_dress_shirt@": {
+      "price": 31.99,
+      "type": 0,
+      "category": 0
+    },
+	"male_casual_!gradient_long_sleeve@": {
+      "price": 31.99,
+      "type": 0,
+      "category": 1
+    },
+	"male_casual_!black_and_white_vans@": {
+      "price": 41.99,
+      "type": 2,
+      "category": 1
+    },
+	"male_casual_!blue_and_white_vans@": {
+      "price": 41.99,
+      "type": 2,
+      "category": 1
+    },
+	"male_casual_!burgundy_pants@": {
+      "price": 31.99,
+      "type": 1,
+      "category": 1
+    },
+	"male_casual_!jeans@": {
+      "price": 31.99,
+      "type": 1,
+      "category": 1
+    },
+	"male_casual_!khaki_pants@": {
+      "price": 31.99,
+      "type": 1,
+      "category": 1
+    },
+	"male_casual_!pink_obey_shirt@": {
+      "price": 51.99,
+      "type": 0,
+      "category": 1
+    },
+	"male_casual_!red_and_white_shirt@": {
+      "price": 34.99,
+      "type": 0,
+      "category": 1
+    },
+	"male_casual_!red_and_white_vans@": {
+      "price": 54.99,
+      "type": 2,
+      "category": 1
+    },
+	"male_sport_!black_gold_sneakers@": {
+      "price": 74.99,
+      "type": 2,
+      "category": 2
+    },
+	"male_sport_!black_running_shorts@": {
+      "price": 34.99,
+      "type": 1,
+      "category": 2
+    },
+	"male_sport_!black_synchrony_tank_top@": {
+      "price": 24.99,
+      "type": 0,
+      "category": 2
+    },
+	"male_sport_!blue_running_shorts@": {
+      "price": 34.99,
+      "type": 1,
+      "category": 2
+    },
+	"male_sport_!blue_sneakers@": {
+      "price": 74.99,
+      "type": 2,
+      "category": 2
+    },
+	"male_sport_!gold_sneakers@": {
+      "price": 94.99,
+      "type": 2,
+      "category": 2
+    },
+	"male_sport_!grey_tank_top@": {
+      "price": 24.99,
+      "type": 0,
+      "category": 2
+    },
+	"male_sport_!orange_synchrony_tank_top@": {
+      "price": 39.99,
+      "type": 0,
+      "category": 2
+    },
+	"male_sport_!red_running_shorts@": {
+      "price": 19.99,
+      "type": 1,
+      "category": 2
+    }
+  },
+  "orders": {
+    "XMADI3532_3aAd": {
+      "recipient_id": "userA",
+      "status": 0,
+      "cart_id": "DAMAIDJ343_AFad2",
+      "price_total": 129.32
+    }
+  },
+  "carts": {
+    "user1_cart": {
+      "product_list": [
+        {
+          "id": "do_not_delete",
+          "quantity": 0
+        }
+      ]
+    }
+  },
+  "coupons": {
+    "coupon1": {
+      "title": "Casual Flash Sale",
+      "description": "20% All Casual Wear Until April 27th. Only Reedemable for one item.",
+      "discount_type": 0,
+      "reduction_amount": null,
+      "percentage": 20,
+      "product_type": -1
+    }
+  },
+  "users": {
+    "user1": {
+      "name": "John Doe",
+      "credit_card_data": "0123 4567 8910 1112"
+    }
+  }
+}

@@ -1,0 +1,1144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1677137691994672}
+  m_IsPrefabParent: 1
+--- !u!1 &1677137691994672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4506114667809020}
+  - component: {fileID: 33791610262885628}
+  - component: {fileID: 23004816106671488}
+  - component: {fileID: 114343439418106180}
+  - component: {fileID: 114965464760633202}
+  - component: {fileID: 114622679778797338}
+  - component: {fileID: 114612957508780022}
+  - component: {fileID: 114259551086361724}
+  - component: {fileID: 114841760507691628}
+  - component: {fileID: 114579094264500226}
+  - component: {fileID: 114102429263661874}
+  - component: {fileID: 114869817231711472}
+  - component: {fileID: 114965715206682878}
+  - component: {fileID: 114481954499456504}
+  - component: {fileID: 114047233830696136}
+  - component: {fileID: 114384060082633336}
+  - component: {fileID: 114767193592156866}
+  - component: {fileID: 114089816318930116}
+  - component: {fileID: 114560537713661606}
+  - component: {fileID: 114569031948857668}
+  - component: {fileID: 114884003209712976}
+  - component: {fileID: 114634945705409580}
+  - component: {fileID: 114988629392308250}
+  - component: {fileID: 114528920373792400}
+  - component: {fileID: 114905896677256304}
+  - component: {fileID: 114805420372953356}
+  - component: {fileID: 114688599575692138}
+  - component: {fileID: 114364841547928998}
+  - component: {fileID: 114178601503396782}
+  - component: {fileID: 114937503411317498}
+  - component: {fileID: 114920050318226436}
+  - component: {fileID: 114074255244133178}
+  - component: {fileID: 114474977787150826}
+  - component: {fileID: 114297100689786436}
+  - component: {fileID: 114443083116810990}
+  - component: {fileID: 114920058619475790}
+  - component: {fileID: 114446889665153262}
+  - component: {fileID: 114261074038542480}
+  - component: {fileID: 114440156385105096}
+  - component: {fileID: 114106530641440218}
+  - component: {fileID: 114549914513010898}
+  - component: {fileID: 114817721395631680}
+  - component: {fileID: 114909967023489928}
+  - component: {fileID: 114336056860041904}
+  - component: {fileID: 114279908859033274}
+  - component: {fileID: 114053518371823222}
+  - component: {fileID: 114465371561024558}
+  - component: {fileID: 114472752944139876}
+  - component: {fileID: 114587681035964816}
+  - component: {fileID: 114274284639843058}
+  - component: {fileID: 114343691644151270}
+  - component: {fileID: 114954445155185946}
+  - component: {fileID: 114653284117114734}
+  - component: {fileID: 114140869194318668}
+  - component: {fileID: 114074517959451994}
+  - component: {fileID: 114840277613467172}
+  m_Layer: 0
+  m_Name: male_casual_[burgundy_pants] (Kristopher Guzman's conflicted copy 2018-04-18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4506114667809020
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 18.398396, y: 0.186, z: -18.53}
+  m_LocalScale: {x: 1.5899999, y: 1.5899999, z: 1.5899999}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23004816106671488
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3c668fc9b91f84d4b9d9e87fb0772cdd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33791610262885628
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Mesh: {fileID: 4300008, guid: a38ee9bb14ac94da2b80828d1d315b67, type: 3}
+--- !u!114 &114047233830696136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114053518371823222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114074255244133178
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114074517959451994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114089816318930116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114102429263661874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114106530641440218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114140869194318668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114178601503396782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114259551086361724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114261074038542480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114274284639843058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114279908859033274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114297100689786436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114336056860041904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114343439418106180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Burgundy Pants
+  price: 31.99
+  type: 1
+  brand: 
+  category: 1
+  materialName: male_casual_[burgundy_pants]
+  gender: male
+  isInCart: 0
+--- !u!114 &114343691644151270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114364841547928998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114384060082633336
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114440156385105096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114443083116810990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114446889665153262
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114465371561024558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114472752944139876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114474977787150826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114481954499456504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114528920373792400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114549914513010898
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114560537713661606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114569031948857668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114579094264500226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114587681035964816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114612957508780022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114622679778797338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114634945705409580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114653284117114734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114688599575692138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114767193592156866
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114805420372953356
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114817721395631680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114840277613467172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114841760507691628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114869817231711472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114884003209712976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114905896677256304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114909967023489928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114920050318226436
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114920058619475790
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114937503411317498
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114954445155185946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114965464760633202
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114965715206682878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
+--- !u!114 &114988629392308250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677137691994672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d28956976c3f4a7fb170af9fd88de86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 
+  price: 0
+  type: 0
+  brand: 
+  category: 0
+  materialName: 
+  gender: 
+  isInCart: 0
