@@ -22,53 +22,62 @@
 <body class="color-2">
 	<div class="container-fluid">
 		<header class="Sync-header">
-		<img src="img/synchrony.png">		
+		<img src="img/synchrony.png">
+		<div class="gender">
+			<div class="male">
+				<button onclick="male()">Male</button>
+			</div>
+			<div class="female">
+				<button onclick="female()">Female</button>
+			</div>
+			<h2 id="curGender">Current Gender: </h2>
+		</div>
 		</nav>
 		</header>
 		<section class="content">
 			<div class="dummy-browser">
 				<div class="dummy-grid dummy-grid--filled dummy-grid--sidebar">
 					<div class="dummy-sidebar">
-						<div class="checkout" id="sports">
+						<div class="checkout" id="business">
 							<a class="checkout__button category"
 							   href="#"
-							   data-category="sports">
-								Activewear
+							   data-category="business">
+								Women's Business
 							</a>
 						</div>
-						<div class="checkout" id="winter">
+						<div class="checkout" id="casual">
 							<a class="checkout__button category"
 							   href="#"
-							   data-category="winter">
-								Winter
+							   data-category="casual">
+								Women's Casual
 							</a>
 						</div>
-						<div class="checkout" id="jeans">
+						<div class="checkout" id="sport">
 							<a class="checkout__button category"
 							   href="#"
-							   data-category="jeans">
-								Jeans
+							   data-category="sport">
+								Women's Sportswear
 							</a>
 						</div>
-						<div class="checkout" id="bottoms">
+						<div class="checkout" id="maleBusiness">
 							<a class="checkout__button category"
 							   href="#"
-							   data-category="bottoms">
-								Bottoms
+							   data-category="maleBusiness">
+								Men's Business
 							</a>
 						</div>
-						<div class="checkout" id="dresses">
+						<div class="checkout" id="maleCasual">
 							<a class="checkout__button category"
 							   href="#"
-							   data-category="dresses">
-								Dresses
+							   data-category="maleCasual">
+								Men's Casual
 							</a>
 						</div>
-						<div class="checkout" id="sleepwear">
+						<div class="checkout" id="maleSport">
 							<a class="checkout__button category"
 							   href="#"
-							   data-category="sleepwear">
-								Sleepwear
+							   data-category="maleSport">
+								Men's Sportwear
 							</a>
 						</div>
 						<div class="checkout" id="checkout">
@@ -90,7 +99,7 @@
 										<tr><td><strong>Black</strong> <span>T-Shirt</span></td><td>$9.90</td></tr>
 										</tbody>
 									</table><!-- /checkout__summary -->
-									<button class="checkout__option checkout__option--silent checkout__cancel" id="checkout__cancel"><i class="fa fa-angle-left"></i> Continue shopping</button></div><button class="checkout__option checkout__option--loud">Pay with Card ending in 1234</button>
+									<button class="checkout__option checkout__option--silent checkout__cancel" id="checkout__cancel"><i class="fa fa-angle-left"></i> Continue shopping</button></div><button class="checkout__option checkout__option--loud" onclick="checkOut()">Pay with Card ending in 1234</button>
 								<!-- /checkout__order-inner -->
 							</div><!-- /checkout__order -->
 						</div><!-- /checkout -->
@@ -102,6 +111,9 @@
 					<div class="dummy-grid__item"><img id="item-4" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
 					<div class="dummy-grid__item"><img id="item-5" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
 					<div class="dummy-grid__item"><img id="item-6" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-7" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-8" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-9" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
 				</div><!-- /dummy-grid -->
 			</div>
 		</section> 
