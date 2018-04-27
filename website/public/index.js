@@ -1,81 +1,140 @@
-function saveToCart() {
-	
-}
 (function() {
-	// Firebase initialization
-	var fireDb = firebase.database();
 
-	// var userId = firebase.auth().currentUser.uid;
-	fireDb.ref('/carts/user1_cart/product_list').once('value').then(function(snapshot) {
-		var products = snapshot.val() || [];
-		console.log(products);
-	});
-var descriptions = {
+var fbNames = {
         business: [
-            'Beige Flats $32.99',
-            'Black Flats $175.00',
-            'Black Skirt $54.99',
-            'Black Tip Flats $50.00',
-            'Khaki Business Shirt $8.55',
-            'Khaki Skirt $395.00',
-            'Teal Business Shirt $20.00',
-            'White Business Shirt $20.00',
-            'White Skirt $20.00'
+            'female_business_!beige_flats@',
+            'female_business_!black_flats@',
+            'female_business_!black_skirt@',
+            'female_business_!black_tip_flats@',
+            'female_business_!khaki_business_shirt@',
+            'female_business_!khaki_skirt@',
+            'female_business_!teal_business_shirt@',
+            'female_business_!white_business_shirt@',
+            'female_business_!white_skirt@'
         ],
         casual: [
-            'Black and white Vans $20.00',
-            'Black Synchrony Tee $1050.00',
-            'Burgundy Pants $32.99',
-            'Jeans $395.00',
-            'Khaki Pants $99.00',
-            'Pink Synchrony Tee $33.99',
-            'Pink Vans $68.00',
-            'Plaid Vans $17.77',
-            'Purple Tee $9.96'
+            'female_casual_!black_and_white_vans@',
+            'female_casual_!black_synchrony_tee@',
+            'female_casual_!burgundy_pants@',
+            'female_casual_!jeans@',
+            'female_casual_!khaki_pants@',
+            'female_casual_!pink_synchrony_tee@',
+            'female_casual_!pink_vans@',
+            'female_casual_!plaid_vans@',
+            'female_casual_!purple_tee@'
         ],
         sport: [
-            'Black Running Shoes $17.77',
-            'Brown Running Shoes $9.96',
-            'Grey Leggings $21.92',
-            'Grey Tank Top $37.99',
-            'Meshed Leggings $9.96',
-            'Pink Leggings $29.99',
-            'Pink Tank Top $79.95',
-            'Teal Tank Top $20.00',
-            'White Running Shoes $1050.00'
+            'female_sport_!black_running_shoes@',
+            'female_sport_!brown_running_shoes@',
+            'female_sport_!grey_leggings@',
+            'female_sport_!grey_tank_top@',
+            'female_sport_!meshed_leggings@',
+            'female_sport_!pink_leggings@',
+            'female_sport_!pink_tank_top@',
+            'female_sport_!teal_tank_top@',
+            'female_sport_!white_running_shoes@'
         ],
         maleBusiness: [
-            'Black Dress Shirt $79.95',
-            'Black Oxfords $49.00',
-            'Black Slacks $89.00',
-            'Brown Oxfords $17.99',
-            'Casual Oxfords $64.95',
-            'Grey Dress Shirt $64.95',
-            'Grey Slacks $19.58',
-            'Khaki Slacks $146.99',
-            'Striped Dress Shirt $29.99'
+            'male_business_!black_dress_shirt@',
+            'male_business_!black_oxfords@',
+            'male_business_!black_slacks@',
+            'male_business_!brown_oxfords@',
+            'male_business_!casual_oxfords@',
+            'male_business_!grey_dress_shirt@',
+            'male_business_!grey_slacks@',
+            'male_business_!khaki_slacks@',
+            'male_business_!striped_dress_shirt@'
         ],
         maleCasual: [
-            'Black and white Vans $19.58',
-            'Blue and white Vans $146.99',
-            'Burgundy Pants $29.99',
-            'Gradient Long Sleeve $33.99',
-            'Jeans $39.99',
-            'Khaki Pants $27.99',
-            'Pink Obey Shirt $79.95',
-            'Red and White Shirt $12.99',
-            'Red and White Vans $79.95'
+            'male_casual_!black_and_white_vans@',
+            'male_casual_!blue_and_white_vans@',
+            'male_casual_!burgundy_pants@',
+            'male_casual_!gradient_long_sleeve@',
+            'male_casual_!jeans@',
+            'male_casual_!khaki_pants@',
+            'male_casual_!pink_obey_shirt@',
+            'male_casual_!red_and_white_shirt@',
+            'male_casual_!red_and_white_vans@'
         ],
         maleSport: [
-            'Black Gold Sneakers $12.99',
-            'Black Running Shorts $9.97',
-            'Black Synchrony Tank Top $8.00',
-            'Blue Running Shorts $48.00',
-            'Blue Sneakers $49.97',
-            'Gold Sneakers $15.99',
-            'Grey Tank Top $19.58',
-            'Orange Synchrony Tank Top $146.99',
-            'Red Running Shorts $29.99'
+            'male_sport_!black_gold_sneakers@',
+            'male_sport_!black_running_shorts@',
+            'male_sport_!black_synchrony_tank_top@',
+            'male_sport_!blue_running_shorts@',
+            'male_sport_!blue_sneakers@',
+            'male_sport_!gold_sneakers@',
+            'male_sport_!grey_tank_top@',
+            'male_sport_!orange_synchrony_tank_top@',
+            'male_sport_!red_running_shorts@'
+        ]
+    };
+
+var descriptions = {
+        business: [
+            'Beige Flats',
+            'Black Flats',
+            'Black Skirt',
+            'Black Tip Flats',
+            'Khaki Business Shirt',
+            'Khaki Skirt',
+            'Teal Business Shirt',
+            'White Business Shirt',
+            'White Skirt'
+        ],
+        casual: [
+            'Black and white Vans',
+            'Black Synchrony Tee',
+            'Burgundy Pants',
+            'Jeans',
+            'Khaki Pants',
+            'Pink Synchrony Tee',
+            'Pink Vans',
+            'Plaid Vans',
+            'Purple Tee'
+        ],
+        sport: [
+            'Black Running Shoes',
+            'Brown Running Shoe',
+            'Grey Leggings',
+            'Grey Tank Top',
+            'Meshed Leggings',
+            'Pink Leggings',
+            'Pink Tank Top',
+            'Teal Tank Top',
+            'White Running Shoes'
+        ],
+        maleBusiness: [
+            'Black Dress Shirt',
+            'Black Oxfords',
+            'Black Slacks',
+            'Brown Oxfords',
+            'Casual Oxfords',
+            'Grey Dress Shirt',
+            'Grey Slacks',
+            'Khaki Slacks',
+            'Striped Dress Shirt'
+        ],
+        maleCasual: [
+            'Black and white Vans',
+            'Blue and white Vans',
+            'Burgundy Pants',
+            'Gradient Long Sleeve',
+            'Jeans',
+            'Khaki Pants',
+            'Pink Obey Shirt',
+            'Red and White Shirt',
+            'Red and White Vans'
+        ],
+        maleSport: [
+            'Black Gold Sneakers',
+            'Black Running Shorts',
+            'Black Synchrony Tank Top',
+            'Blue Running Shorts',
+            'Blue Sneakers',
+            'Gold Sneakers',
+            'Grey Tank Top',
+            'Orange Synchrony Tank Top',
+            'Red Running Shorts'
         ]
     };
     var checkoutBtn = document.querySelector( '#checkout' );
@@ -84,8 +143,10 @@ var descriptions = {
 
     openCtrl.addEventListener( 'click', function(ev) {
         ev.preventDefault();
-        classie.add(checkoutBtn , 'checkout--active' );
-    } );
+	classie.add(checkoutBtn , 'checkout--active' );
+	updateCart();
+	
+    });
 
     [].slice.call( closeCtrls ).forEach( function( ctrl ) {
         ctrl.addEventListener( 'click', function() {
@@ -98,9 +159,20 @@ var descriptions = {
     var basePath = './img/' + category;
     $('.dummy-grid__item>img').each(function(index){
         $(this).attr('src', basePath + '/' + index + '.png');
+	var iname = fbNames[category];
+	$(this).attr('id', iname[index]);
     });
     $('.dummy-grid__item>p').each(function(index){
-        $(this).text(description[index]);
+	var price = '';
+	var iname = fbNames[category];
+	var fbprice = firebase.database().ref('products').child(iname[index]);
+	var item = $(this);
+	fbprice.once('value', function(snapshot){
+		price += snapshot.val() && snapshot.val().price;
+		item.text(description[index]+' $'+price);
+	});
+	
+	
     });
 
     // Change the categories when a category button gets hit
@@ -111,9 +183,19 @@ var descriptions = {
       var basePath = './img/' + category;
 		$('.dummy-grid__item>img').each(function(index){
 		  $(this).attr('src', basePath + '/' + index + '.png');
+		var iname = fbNames[category];
+		$(this).attr('id', iname[index]);
+		$(this).attr('index', index);
       	});
         $('.dummy-grid__item>p').each(function(index){
-            $(this).text(description[index]);
+            var price = '';
+		var iname = fbNames[category];
+		var fbprice = firebase.database().ref('products').child(iname[index]);
+		var item = $(this);
+		fbprice.once('value', function(snapshot){
+			price += snapshot.val() && snapshot.val().price;
+			item.text(description[index]+' $'+price);
+		});
         });
       return false;
 	});
@@ -121,8 +203,22 @@ var descriptions = {
 	$('img.img-item').click(function(e) {
 		e.preventDefault();
 		var element = e.target;
-		console.log(element.id);
-		console.log(e);
+		var newPostKey = firebase.database().ref('carts/user1_cart').child('product_list').push().key;
+		var updates = {};
+		var data = { id: element.id, quantity: 1};
+  		updates['/carts/user1_cart/product_list/' + newPostKey] = data;
+		firebase.database().ref().update(updates);
+		firebase.database().ref('/products/'+element.id).once('value').then(function(snapshot) {
+			document.getElementById('total').textContent= snapshot.val() && snapshot.val().price;
+			firebase.database().ref('/carts/user1_cart/product_list/1').once('value').then(function(snapshot) {
+				var tot = parseInt(snapshot.val() && snapshot.val().quantity);
+				var price = parseInt(document.getElementById('total').textContent);
+				tot+=price;
+				firebase.database().ref('carts/user1_cart/product_list/1').update({id: 'total', quantity: tot});
+				document.getElementById('total').textContent= tot;
+			});
+		});
+		updateCart();
 		return false;
 	});
 })();
@@ -139,7 +235,44 @@ function female()
 function checkOut()
 {
 	firebase.database().ref('carts/user1_cart/product_list').remove();
-	firebase.database().ref('carts/user1_cart/product_list').set({id: 'do_not_delete', quantity: '0'});
+	firebase.database().ref('carts/user1_cart/product_list').set([{id: 'do_not_delete', quantity: '0'},{id: 'total', quantity: 0}]);
 	window.location.replace("thankyou.html");
+}
+function updateCart()
+{
+	var cart = document.getElementById("cart");
+	while (cart.firstChild) {
+    		cart.removeChild(cart.firstChild);
+		}
+	firebase.database().ref('/carts/user1_cart/product_list').once('value').then(function(snapshot) {
+		var products = snapshot.val() || [];
+        	var content = '';
+		var cart = document.getElementById("cart");
+		while (cart.firstChild) {
+    			cart.removeChild(cart.firstChild);
+		}
+        	snapshot.forEach(function(data){
+            	var id = data.val().id;
+		if(id =='do_not_delete') return;
+		if(id =='total')
+		{
+			document.getElementById('total').textContent= data.val().quantity;
+			return;
+		}
+            	var quantity = data.val().quantity;
+		var fbprice = firebase.database().ref('products').child(id);
+		var item = $(this);
+		fbprice.once('value', function(snapshot){
+			var price = snapshot.val() && snapshot.val().price;
+			var name = snapshot.val() && snapshot.val().name;
+			content += '<tr>';
+            		content += '<td>' + name + '</td>';
+			content += '<td>' + price + '</td>';
+			content += '</tr>';
+			document.getElementById("cart").insertAdjacentHTML('beforeend',content);
+			content ='';
+		});
+        });
+});
 }
 

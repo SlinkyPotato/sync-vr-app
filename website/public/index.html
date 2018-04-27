@@ -22,15 +22,22 @@
 <body class="color-2">
 	<div class="container-fluid">
 		<header class="Sync-header">
-		<img src="img/synchrony.png">
-		<div class="gender">
-			<div class="male">
-				<button onclick="male()">Male</button>
-			</div>
-			<div class="female">
-				<button onclick="female()">Female</button>
-			</div>
-			<h2 id="curGender">Current Gender: </h2>
+		<table align="center">
+			<tr>
+				<td><img src="img/synchrony.png"></td>
+			</tr>
+			<tr>
+				<div class="gender" style="display: inline-block">
+				<td>
+					<h3 id="curGender">Current Gender: </h3>
+				</td>
+				<td>
+						<button onclick="male()">Male</button>
+						<button onclick="female()">Female</button>
+				</td>
+				</div>
+			</tr>
+		</table>
 		</div>
 		</nav>
 		</header>
@@ -89,9 +96,9 @@
 										<tr><th>Your Order</th><th>Price</th></tr>
 										</thead>
 										<tfoot>
-										<tr><th colspan="2">Total <span class="checkout__total">$56.20</span></th></tr>
+										<tr><th colspan="2">Total $<span class="checkout__total" id="total">0</span></th></tr>
 										</tfoot>
-										<tbody>
+										<tbody id="cart">
 										<tr><td><strong>Throwing</strong> <span>Shoe</span></td><td>$9.90</td></tr>
 										<tr><td><strong>Donation</strong> <span>SynchVR Team</span></td><td>$5.50</td></tr>
 										<tr><td><strong>Green</strong> <span>T-Shirt</span></td><td>$11.00</td></tr>
@@ -105,15 +112,15 @@
 						</div><!-- /checkout -->
 						<div class="dummy-sidebar__overlay"></div>
 					</div>
-					<div class="dummy-grid__item"><img id="item-1" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-2" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-3" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-4" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-5" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-6" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-7" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-8" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
-					<div class="dummy-grid__item"><img id="item-9" class="img-item" src="img/s1.png"><p>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-1" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-2" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-3" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-4" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-5" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-6" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-7" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-8" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
+					<div class="dummy-grid__item"><img id="item-9" class="img-item" src="img/s1.png"><p add>White T-Shirt $9.90</p></div>
 				</div><!-- /dummy-grid -->
 			</div>
 		</section> 
