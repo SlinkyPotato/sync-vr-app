@@ -2,44 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a601ee64-e36f-48ef-a7ba-8c4d7238e3af" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/img/bottoms/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bottoms/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bottoms/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bottoms/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bottoms/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bottoms/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dresses/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dresses/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dresses/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dresses/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dresses/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/dresses/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jeans/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jeans/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jeans/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jeans/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jeans/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jeans/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sleepwear/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sleepwear/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sleepwear/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sleepwear/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sleepwear/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sleepwear/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sports/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sports/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sports/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sports/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sports/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sports/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/winter/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/winter/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/winter/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/winter/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/winter/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/winter/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/bottoms/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/bottoms/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/bottoms/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/bottoms/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/bottoms/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/bottoms/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/dresses/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/dresses/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/dresses/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/dresses/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/dresses/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/dresses/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/jeans/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/jeans/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/jeans/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/jeans/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/jeans/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/jeans/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sleepwear/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sleepwear/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sleepwear/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sleepwear/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sleepwear/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sleepwear/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sports/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sports/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sports/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sports/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sports/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/sports/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/winter/0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/winter/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/winter/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/winter/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/winter/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/winter/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/view1/view1.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/view1/view1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/business/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/business/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/casual/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/casual/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleBusiness/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleBusiness/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleCasual/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleCasual/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/maleSport/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/maleSport/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/0.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sport/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/sport/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,11 +110,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sidebar.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sidebar.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-343">
-              <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+            <state relative-caret-position="214">
+              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/view1/view1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+              <folding>
+                <element signature="e#65#2313#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +163,11 @@
       <find>dummy-grid__item</find>
       <find>white</find>
       <find>height</find>
+      <find>node_modules</find>
     </findStrings>
+    <replaceStrings>
+      <replace>../node_modules</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -89,6 +180,9 @@
         <option value="$PROJECT_DIR$/js/jquery-3.3.1.min.js" />
         <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/sidebar.html" />
+        <option value="$PROJECT_DIR$/app/js/main.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/view1/view1.html" />
       </list>
     </option>
   </component>
@@ -98,15 +192,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="868" />
-    <option name="width" value="1060" />
-    <option name="height" value="1039" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,7 +222,25 @@
             <path>
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
               <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="view1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="website" type="b2602c69:ProjectViewProjectNode" />
@@ -147,6 +262,12 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\conta\WebstormProjects\sync-vr-app\website\app\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,10 +281,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website/app/index.html" />
     <configuration name="sidebar.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/website/sidebar.html" />
+    <list>
+      <item itemvalue="JavaScript Debug.sidebar.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.sidebar.html" />
       </list>
     </recent_temporary>
@@ -184,19 +311,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15785000" />
+    <option name="totallyTimeSpent" value="16673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="695" y="0" width="848" height="831" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23181258" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25268817" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.2494759" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924356" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -356,8 +484,71 @@
     <entry file="file://$PROJECT_DIR$/css/demo.css" />
     <entry file="file://$PROJECT_DIR$/sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
+        <state relative-caret-position="-241">
           <caret line="153" column="21" selection-start-line="153" selection-start-column="21" selection-end-line="153" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-boxes.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-sidebar.css" />
+    <entry file="file://$PROJECT_DIR$/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-boxes.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-sidebar.css" />
+    <entry file="file://$PROJECT_DIR$/sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-sidebar.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-sidebar.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-boxes.css" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js" />
+    <entry file="file://$PROJECT_DIR$/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-sidebar.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-sidebar.css" />
+    <entry file="file://$PROJECT_DIR$/css/checkout-boxes.css" />
+    <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22611" selection-start-line="3" selection-start-column="22611" selection-end-line="3" selection-end-column="22611" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/demo.css" />
+    <entry file="file://$PROJECT_DIR$/sidebar.html" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="e#65#2313#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view1/view1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
         </state>
       </provider>
     </entry>
